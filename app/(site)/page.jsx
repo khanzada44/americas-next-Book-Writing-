@@ -1,6 +1,6 @@
 import HesitantToHireSection from '@/components/site/sections/HesitantToHireSection';
 import FrequentlyAskedQuestionsSection from '@/components/site/sections/FrequentlyAskedQuestionsSection';
-
+import KindleShowcase from '@/components/sections/KindleShowcase';
 export const metadata = {
   title: { absolute: "Hire publisher 4 states, the #1 Book Writing Agency in US" },
   description: "Hire the #1 Book Writing Agency in USA to get Professional Book Writing Services and turn your ideas into best-selling books. Call us now and get started today!",
@@ -62,11 +62,12 @@ export default function HomePage() {
           {" "}
           <div className="row bannerbook d-none d-md-block">
             <div className="container">
-              <img className="lozad" src="/assets/img/home_banner_bottam_img.webp" alt="publisher 4 states" />
+              <img className="lozad" src="/assets/img/home_banner_bottam_img.png" alt="publisher 4 states" />
             </div>
           </div>
         </div>
       </section>
+
       <section className="pt-4 pt-md-0">
         <div className="container-xl">
           <div className="row justify-content-center">
@@ -136,6 +137,17 @@ export default function HomePage() {
         </div>
       </section>
       <section>
+        <KindleShowcase
+  interval={3000}
+  books={[
+    { src: 'https://globalpublishinghq.com/images/6.webp', alt: 'Court of Tricksters' },
+    { src: 'https://globalpublishinghq.com/images/7.webp', alt: "Sinner's Isle" },
+    { src: 'https://globalpublishinghq.com/images/5.webp', alt: "Sinner's Isle" },
+    { src: 'https://globalpublishinghq.com/images/4.webp', alt: "Sinner's Isle" },
+    { src: 'https://globalpublishinghq.com/images/3.webp', alt: "Sinner's Isle" },
+    // ... kam se kam 7 covers, taake koi cover ek waqt mein do jagah na dikhe
+  ]}
+/>
         <div className="lozad py-5" data-background-image="/assets/img/bg_recommended.webp">
           <div className="container-xl">
             <div className="row text-center justify-content-center">
@@ -638,7 +650,7 @@ export default function HomePage() {
                     <img alt="publisher 4 states" data-lazy="assets/img/category/r-1.webp" className="book" />
                   </li>
                   <li className="col">
-                    <img alt="publisher 4 states" data-lazy="assets/img/category/r-2.webp" className="book" />
+                    <img alt="publisher 4 states" data-lazy="assets/img/category/r-2.png" className="book" />
                   </li>
                 </ul>
               </div>
@@ -654,7 +666,7 @@ export default function HomePage() {
             {" "}
             <div className="row justify-content-center align-items-center">
               <div className="col-lg-5">
-                <img alt="publisher 4 states" data-lazy="assets/img/category/scifi.png" className="icon" />
+                <img alt="publisher 4 states" data-lazy="assets/img/category/r-3.png" className="icon" />
                 {" "}
                 <h3 className="f-24 fw-700">{" Science Fiction "}</h3>
                 {" "}
@@ -676,10 +688,10 @@ export default function HomePage() {
               <div className="col-lg-6">
                 <ul className="row row-cols-2 list-unstyled">
                   <li className="col">
-                    <img alt="publisher 4 states" data-lazy="assets/img/category/scifi-1.webp" className="book" />
+                    <img alt="publisher 4 states" data-lazy="assets/img/category/r-4.png" className="book" />
                   </li>
                   <li className="col">
-                    <img alt="publisher 4 states" data-lazy="assets/img/category/scifi-2.webp" className="book" />
+                    <img alt="publisher 4 states" data-lazy="assets/img/category/r-5.png" className="book" />
                   </li>
                 </ul>
               </div>
@@ -695,7 +707,7 @@ export default function HomePage() {
             {" "}
             <div className="row justify-content-center align-items-center">
               <div className="col-lg-5">
-                <img alt="publisher 4 states" data-lazy="assets/img/category/hifi.png" className="icon" />
+                <img alt="publisher 4 states" data-lazy="assets/img/category/r-6.png" className="icon" />
                 {" "}
                 <h3 className="f-24 fw-700">{" Historical Fiction "}</h3>
                 {" "}
@@ -715,10 +727,10 @@ export default function HomePage() {
               <div className="col-lg-6">
                 <ul className="row row-cols-2 list-unstyled">
                   <li className="col">
-                    <img alt="publisher 4 states" data-lazy="assets/img/category/hifi-1.webp" className="book" />
+                    <img alt="publisher 4 states" data-lazy="assets/img/category/r-7.png" className="book" />
                   </li>
                   <li className="col">
-                    <img alt="publisher 4 states" data-lazy="assets/img/category/hifi-2.webp" className="book" />
+                    <img alt="publisher 4 states" data-lazy="assets/img/category/r-8.png" className="book" />
                   </li>
                 </ul>
               </div>
@@ -734,7 +746,7 @@ export default function HomePage() {
             {" "}
             <div className="row justify-content-center align-items-center">
               <div className="col-lg-5">
-                <img alt="publisher 4 states" data-lazy="assets/img/category/Mystery.png" className="icon" />
+                <img alt="publisher 4 states" data-lazy="assets/img/category/r-9.png" className="icon" />
                 {" "}
                 <h3 className="f-24 fw-700">{" Mystery/Thriller "}</h3>
                 {" "}
@@ -754,10 +766,10 @@ export default function HomePage() {
               <div className="col-lg-6">
                 <ul className="row row-cols-2 list-unstyled">
                   <li className="col">
-                    <img alt="publisher 4 states" data-lazy="assets/img/category/Mystery-1.webp" className="book" />
+                    <img alt="publisher 4 states" data-lazy="assets/img/category/r-10.png" className="book" />
                   </li>
                   <li className="col">
-                    <img alt="publisher 4 states" data-lazy="assets/img/category/Mystery-2.webp" className="book" />
+                    <img alt="publisher 4 states" data-lazy="assets/img/category/r-11.png" className="book" />
                   </li>
                 </ul>
               </div>
@@ -773,7 +785,7 @@ export default function HomePage() {
             {" "}
             <div className="row justify-content-center align-items-center">
               <div className="col-lg-5">
-                <img alt="publisher 4 states" data-lazy="assets/img/category/fantasy.png" className="icon" />
+                <img alt="publisher 4 states" data-lazy="assets/img/category/r-1.png" className="icon" />
                 {" "}
                 <h3 className="f-24 fw-700">{" Fantasy "}</h3>
                 {" "}
@@ -793,10 +805,10 @@ export default function HomePage() {
               <div className="col-lg-6">
                 <ul className="row row-cols-2 list-unstyled">
                   <li className="col">
-                    <img alt="publisher 4 states" data-lazy="assets/img/category/fantasy-1.webp" className="book" />
+                    <img alt="publisher 4 states" data-lazy="assets/img/category/r-2.png" className="book" />
                   </li>
                   <li className="col">
-                    <img alt="publisher 4 states" data-lazy="assets/img/category/fantasy-2.webp" className="book" />
+                    <img alt="publisher 4 states" data-lazy="assets/img/category/r-3.png" className="book" />
                   </li>
                 </ul>
               </div>

@@ -2,7 +2,7 @@
 export default function HesitantToHireSection() {
   return (
     <>
-      <section className="py-5 lozad" data-background-image="/assets/img/testi-bg.webp">
+      {/* <section className="py-5 lozad" data-background-image="/assets/img/testi-bg.webp">
         <div className="container py-5">
           <div className="row justify-content-center">
             <div className="col-12 text-center">
@@ -122,7 +122,7 @@ export default function HesitantToHireSection() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }

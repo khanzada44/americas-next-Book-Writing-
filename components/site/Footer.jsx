@@ -77,18 +77,18 @@ export default function Footer() {
           {" "}
           <div className="row">
             <div className="col-lg-6 pt-3">
-              <p className="mb-0">© publisher 4 states 2024 All rights reserved.</p>
+              <p className="mb-0">© publisher 4 states 2026 All rights reserved.</p>
             </div>
             {" "}
             <div className="col-lg-6">
               <ul className="list-unstyled d-flex justify-content-end mb-0">
                 <li className="dmc pe-3">
-                  <a href="https://publisher4states.com/assets/img/dmca-certificate.png" target="_blank" rel="noopener noreferrer">
+                  <a href="" target="_blank" rel="noopener noreferrer">
                     <img className="lozad" src="/assets/img/dmca-protection.webp" alt="DMCA Protection" />
                   </a>
                 </li>
                 <li className="dmc">
-                  <a href="https://publisher4states.com/assets/img/dmca-certificate.png" target="_blank" rel="noopener noreferrer">
+                  <a href="" target="_blank" rel="noopener noreferrer">
                     <img className="lozad" src="/assets/img/dmca-compliance.png" alt="DMCA Compliance" />
                   </a>
                 </li>

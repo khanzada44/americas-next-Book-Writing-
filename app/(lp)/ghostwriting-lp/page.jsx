@@ -636,13 +636,13 @@ export default function GhostwritingLpPage() {
                     <div className="book-slider d-flex">
                       <div className="item">
                         <a data-legacy-href="javascript:void(0)" className="portfolio">
-                          <img className="lozad" src="/ghostwriting-lp/assets/img/category/r-1.webp" />
+                          <img className="lozad" src="/ghostwriting-lp/assets/img/category/r-1.png" />
                         </a>
                       </div>
                       {" "}
                       <div className="item">
                         <a data-legacy-href="javascript:void(0)" className="portfolio">
-                          <img className="lozad" src="/ghostwriting-lp/assets/img/category/r-2.webp" />
+                          <img className="lozad" src="/ghostwriting-lp/assets/img/category/r-2.png" />
                         </a>
                       </div>
                     </div>
@@ -698,13 +698,13 @@ export default function GhostwritingLpPage() {
                     <div className="book-slider d-flex">
                       <div className="item">
                         <a data-legacy-href="javascript:void(0)" className="portfolio">
-                          <img className="lozad" src="/ghostwriting-lp/assets/img/category/scifi-1.webp" />
+                          <img className="lozad" src="/ghostwriting-lp/assets/img/category/r-3.png" />
                         </a>
                       </div>
                       {" "}
                       <div className="item">
                         <a data-legacy-href="javascript:void(0)" className="portfolio">
-                          <img className="lozad" src="/ghostwriting-lp/assets/img/category/scifi-2.webp" />
+                          <img className="lozad" src="/ghostwriting-lp/assets/img/category/r-4.png" />
                         </a>
                       </div>
                     </div>
@@ -760,13 +760,13 @@ export default function GhostwritingLpPage() {
                     <div className="book-slider d-flex">
                       <div className="item">
                         <a data-legacy-href="javascript:void(0)" className="portfolio">
-                          <img className="lozad" src="/ghostwriting-lp/assets/img/category/hifi-1.webp" />
+                          <img className="lozad" src="/ghostwriting-lp/assets/img/category/r-5.png" />
                         </a>
                       </div>
                       {" "}
                       <div className="item">
                         <a data-legacy-href="javascript:void(0)" className="portfolio">
-                          <img className="lozad" src="/ghostwriting-lp/assets/img/category/hifi-2.webp" />
+                          <img className="lozad" src="/ghostwriting-lp/assets/img/category/r-6.png" />
                         </a>
                       </div>
                     </div>
@@ -822,13 +822,13 @@ export default function GhostwritingLpPage() {
                     <div className="book-slider d-flex">
                       <div className="item">
                         <a data-legacy-href="javascript:void(0)" className="portfolio">
-                          <img className="lozad" src="/ghostwriting-lp/assets/img/category/Mystery-1.webp" />
+                          <img className="lozad" src="/ghostwriting-lp/assets/img/category/r-7.png" />
                         </a>
                       </div>
                       {" "}
                       <div className="item">
                         <a data-legacy-href="javascript:void(0)" className="portfolio">
-                          <img className="lozad" src="/ghostwriting-lp/assets/img/category/Mystery-2.webp" />
+                          <img className="lozad" src="/ghostwriting-lp/assets/img/category/r-8.png" />
                         </a>
                       </div>
                     </div>
@@ -946,13 +946,13 @@ export default function GhostwritingLpPage() {
                     <div className="book-slider d-flex">
                       <div className="item">
                         <a data-legacy-href="javascript:void(0)" className="portfolio">
-                          <img className="lozad" src="/ghostwriting-lp/assets/img/category/fantasy-1.webp" />
+                          <img className="lozad" src="/ghostwriting-lp/assets/img/category/r-9.png" />
                         </a>
                       </div>
                       {" "}
                       <div className="item">
                         <a data-legacy-href="javascript:void(0)" className="portfolio">
-                          <img className="lozad" src="/ghostwriting-lp/assets/img/category/fantasy-2.webp" />
+                          <img className="lozad" src="/ghostwriting-lp/assets/img/category/r-10.png" />
                         </a>
                       </div>
                     </div>

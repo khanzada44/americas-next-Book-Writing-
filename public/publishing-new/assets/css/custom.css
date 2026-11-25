@@ -1,0 +1,2643 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+@font-face {
+    font-family: "NoirPro-Heavy";
+    src: url("../fonts/NoirPro-Heavy.otf");
+}
+@font-face {
+    font-family: "NoirPro-Bold";
+    src: url("../fonts/NoirPro-Bold.otf");
+}
+@font-face {
+    font-family: "NoirPro-SemiBold";
+    src: url("../fonts/NoirPro-SemiBold.otf");
+}
+@font-face {
+    font-family: "NoirPro-Medium";
+    src: url("../fonts/NoirPro-Medium.otf");
+}
+@font-face {
+    font-family: "NoirPro-Regular";
+    src: url("../fonts/NoirPro-Regular.otf");
+}
+@font-face {
+    font-family: "NoirPro-Light";
+    src: url("../fonts/NoirPro-Light.otf");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "NoirPro-Medium";
+    text-transform: capitalize;
+}
+
+span,
+input,
+textarea,
+p,
+ul {
+    font-family: "NoirPro-Regular";
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a,
+button {
+    font-family: "NoirPro-Regular";
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+a:hover {
+    color: inherit;
+}
+
+body {
+    overflow-x: hidden;
+    background: #FFFFFF;
+    font-family: "NoirPro-Regular";
+}
+
+main {
+    overflow: hidden;
+}
+
+a,
+button,
+input,
+textarea:focus {
+    outline: none;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.form-group input::-webkit-outer-spin-button,
+.form-group input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+.form-group input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/*Website Custom Style Css For Single Items Start Here*/
+
+/*Heading & Para Style Css*/
+h1{
+    font-size: 50px;
+    line-height: 56px;
+}
+h2{
+    font-size: 40px;
+    line-height: 46px;
+}
+h3{
+    font-size: 40px;
+    line-height: 46px;
+}
+h4{
+    font-size: 18px;
+    line-height: 24px;
+}
+h5{
+    font-size: 20px;
+    line-height: 26px;
+}
+h6{
+    font-size: 18px;
+    line-height: 24px;
+}
+p{
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 0 10px;
+}
+li{
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+/*Heading & Para Style Css*/
+
+/*Buttons Style Css*/
+.website-main-buttons{
+    margin: 40px 0 0;
+    display: flex;
+    align-items: center;
+}
+.website-main-buttons a.read-more-btn,
+.website-main-buttons button.popup-btn,
+.website-main-buttons button.chat-btn,
+.website-main-buttons a.call-btn{
+    font-size: 18px;
+    width: 200px;
+    border-radius: 0;
+    padding: 10px 5px;
+    margin: 0 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease-in-out;
+}
+/*Buttons Style Css*/
+
+/*Website Custom Style Css For Single Items End Here*/
+
+/*Header Css Start Here*/
+header{
+    background: #254816;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 10px 12px -10px #20471345;
+    z-index: 1000;
+    transition: all 0.5s ease-in-out;
+}
+header nav.navbar{
+    padding: 10px 0;
+    justify-content: space-between;
+}
+header nav.navbar .navbar-brand{
+    padding: 0;
+    margin: 0;
+}
+header nav.navbar .navbar-brand .logo{
+    width: 250px;
+    margin: 0;
+    transition: all 0.5s ease-in-out;
+    display: block;
+}
+header.sticky .navbar-brand .logo{
+    width: 200px !important;
+    transition: all 0.5s ease-in-out;
+}
+header nav.navbar .navbar-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav.navbar .navbar-buttons a.call-btn{
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 18px;
+    width: 200px;
+    border-radius: 0;
+    padding: 10px 5px;
+    margin: 0 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease-in-out;
+}
+header nav.navbar .navbar-buttons a.call-btn:hover{
+    background: #fff;
+    color: #204713;
+}
+header nav.navbar .navbar-buttons button.chat-btn{
+    background: #fff;
+    color: #204713;
+    border: 2px solid #fff;
+    font-size: 18px;
+    width: 200px;
+    border-radius: 0;
+    padding: 10px 5px;
+    margin: 0 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease-in-out;
+}
+header nav.navbar .navbar-buttons button.chat-btn:hover{
+    background: transparent;
+    color: #fff;
+}
+/*Header Css End Here*/
+
+/**************************************************************************
+ --------------------- Home Page Folds Css Start Here ---------------------
+ --------------------------------------------------------------------------
+**************************************************************************/
+
+/*Banner Main Section Css Start Here*/
+section.banner-main-sec{
+    background-image: url(../images/banner-main-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 150px 0 100px;
+    position: relative;
+    z-index: 1;
+}
+.banner-main-sec .banner-inner-content{}
+.banner-inner-content h1{
+    color: #fff;
+    margin: 0 0 20px;
+}
+.banner-inner-content p{
+    color: #fff;
+}
+.banner-inner-content h5{
+    color: #fff;
+    margin: 0 0 10px;
+}
+.banner-inner-content h5 b{
+    color: #2ba504;
+    border-bottom: 2px solid #fff;
+}
+.banner-inner-content .website-main-buttons{}
+.banner-inner-content .website-main-buttons button.chat-btn{
+    background: #fff;
+    color: #204713;
+    border: 2px solid #fff;
+}
+.banner-inner-content .website-main-buttons button.chat-btn:hover{
+    background: transparent;
+    color: #fff;
+}
+.banner-inner-content .website-main-buttons a.call-btn{
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.banner-inner-content .website-main-buttons a.call-btn:hover{
+    background: #fff;
+    color: #204713;
+}
+/*Banner Published Form Css*/
+.banner-inner-published-form{
+    background: #fff;
+    width: 80%;
+    border: 2px solid #254816;
+    border-radius: 0;
+    box-shadow: 0 0px 15px -5px #fff;
+    padding: 30px 30px;
+    margin: 0 auto;
+}
+.banner-inner-published-form h4{
+    color: #254816;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 0 10px;
+}
+.banner-inner-published-form .form-group{
+    margin: 0 0 10px 0;
+}
+.banner-inner-published-form .form-group.form-group-last{
+    margin: 0;
+}
+.banner-inner-published-form .form-group .form-select{
+    font-family: "NoirPro-Regular";
+    background-color: #F3F3F3;
+    color: #202020;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 0;
+    border: transparent;
+    border-bottom: 2px solid #254816;
+    outline: none;
+    box-shadow: none;
+    padding: 10px 30px 10px 10px;
+    cursor: pointer;
+}
+.banner-inner-published-form .form-group-select{
+    margin: 0 0 10px 0;
+}
+.banner-inner-published-form .form-group-select h6{
+    color: #202020;
+    margin: 0px 0 10px;
+}
+.banner-inner-published-form .form-group-select .form-check-flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.banner-inner-published-form .form-group-select .form-check-flex .form-check{
+    margin: 0 5px 10px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.banner-inner-published-form .form-group-select .form-check-flex .form-check .form-check-input{
+    background-color: #F3F3F3;
+    border: 1px solid #202020;
+    width: 16px;
+    height: 16px;
+    border-radius: 0px;
+    outline: none;
+    box-shadow: none;
+    margin: 0 5px 0 0;
+    cursor: pointer;
+}
+.banner-inner-published-form .form-group-select .form-check-flex .form-check .form-check-input:checked[type=checkbox]{
+    background-color: #254816;
+}
+.banner-inner-published-form .form-group-select .form-check-flex .form-check .form-check-label{
+    color: #202020;
+    font-size: 16px;
+    cursor: pointer;
+}
+.banner-inner-published-form .form-group input{
+    background: #F3F3F3;
+    color: #202020;
+    font-size: 16px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid #254816;
+    border-radius: 0px;
+    padding: 10px 8px;
+}
+.banner-inner-published-form .form-group input::placeholder{
+    color: #5f5f5f;
+    font-size: 16px;
+}
+.banner-inner-published-form .form-group button.submit-btn{
+    background: #254816;
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+    border: 2px solid #254816;
+    border-radius: 0;
+    padding: 10px 10px;
+    margin: 20px 0 0;
+    transition: all .3s ease-in-out;
+}
+.banner-inner-published-form .form-group button.submit-btn:hover{
+    background: #F3F3F3;
+    color: #254816;
+}
+/*Banner Published Form Css*/
+/*Banner Step Form Fold1 Start*/
+.multi-step-form{
+    background-color: #fff;
+    width: 80%;
+    padding: 40px 20px;
+    margin: 0 auto 0px;
+    border-radius: 10px;
+    min-height: 600px;
+    max-height: 600px;
+    text-align: center;
+}
+.multi-step-form .selceted-box{}
+.selceted-box#step2{
+    display: none;
+}
+.selceted-box#step3{
+    display: none;
+}
+.selceted-box#step4{
+    display: none;
+}
+.multi-step-form .selceted-box h3{
+    color: #254816;
+    font-weight: 700;
+    border-bottom: 1px solid #254816;
+    padding: 0 0 20px 0;
+    margin: 0px 0 20px 0;
+}
+.multi-step-form .selceted-box p{
+    color: #202020;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0 0 20px 0;
+    text-align: left;
+}
+.selceted-box .selected-button{}
+.selceted-box .selected-button .form-check{
+    border: 2px solid #254816;
+    padding: 10px 20px;
+    margin: 0 0 10px 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.selected-button .form-check .form-check-label{
+    color: #202020;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.selected-button .form-check .form-check-input{
+    float: inherit;
+    position: absolute;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    border: 2px solid #254816;
+    box-shadow: none;
+    cursor: pointer;
+}
+.selected-button .form-check .form-check-input:checked{
+    background-color: #2ba504;
+}
+.selected-button .form-group{
+    margin: 0 0 20px 0;
+}
+.selected-button .form-group input{
+    background: #F3F3F3;
+    color: #202020;
+    border: none;
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    box-shadow: 0 0 3px 1px #b2b2b2;
+}
+.selected-button .form-group input::placeholder{
+    color: #5f5f5f;
+    font-size: 16px;
+}
+.selected-button .form-group textarea{
+    background: #F3F3F3;
+    color: #202020;
+    border: none;
+    width: 100%;
+    height: 100px;
+    resize: none;
+    padding: 10px 20px;
+    box-shadow: 0 0 3px 1px #b2b2b2;
+}
+.selected-button .form-group textarea::placeholder{
+    color: #5f5f5f;
+    font-size: 16px;
+}
+.selected-button .form-check-privacy{
+    display: flex;
+}
+.selected-button .form-check-privacy label p{
+    color: #202020;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.selected-button .form-check-privacy label p a{
+    color: #2ba504;
+}
+.selected-button .form-check-privacy input{
+    float: inherit;
+    position: inherit;
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #2ba504;
+    box-shadow: none;
+    cursor: pointer;
+    margin: 0 10px 0 0;
+}
+.step-form-btns{
+    margin: 30px 0 0px 0;
+}
+.step-form-btns .previous-btn{
+    background-color: transparent;
+    color: #204713;
+    border: 2px solid #204713;
+    font-size: 18px;
+    padding: 5px 20px;
+    margin: 0 10px 0 0;
+    width: 175px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.step-form-btns .previous-btn:hover{
+    background-color: #202020;
+    color: #fff;
+    border: 2px solid #202020;
+}
+.step-form-btns .next-btn{
+    background-color: #204713;
+    color: #fff;
+    border: 2px solid #204713;
+    font-size: 18px;
+    padding: 5px 20px;
+    margin: 0 10px 0 0;
+    width: 175px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.step-form-btns .next-btn:hover{
+    background-color: #fff;
+    color: #204713;
+}
+.step-form-btns .submit-btn{
+    background-color: #204713;
+    color: #fff;
+    border: 2px solid #204713;
+    font-size: 18px;
+    padding: 5px 20px;
+    margin: 0 10px 0 0;
+    width: 175px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.step-form-btns .submit-btn:hover{
+    background-color: #fff;
+    color: #204713;
+}
+/*Banner Step Form Fold1 End*/
+/* Children Banner Css Start */
+section.banner-main-sec.children-banner-main{
+    background-image: url(../images/children-lp/childrens-banner-bg.webp);
+}
+.banner-main-sec.children-banner-main::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #254816;
+    opacity: 0.1;
+    z-index: -1;
+}
+.banner-main-sec.children-banner-main .banner-inner-content h1{
+    color: #254816;
+}
+.banner-main-sec.children-banner-main .banner-inner-content p{
+    color: #202020;
+}
+.banner-main-sec.children-banner-main .banner-inner-content h5{
+    color: #202020;
+}
+.banner-main-sec.children-banner-main .banner-inner-content .website-main-buttons button.chat-btn:hover{
+    background: #204713;
+    color: #fff;
+    border: 2px solid #204713;
+}
+.banner-main-sec.children-banner-main .banner-inner-content .website-main-buttons a.call-btn{
+    background: #204713;
+    color: #fff;
+    border: 2px solid #204713;
+}
+.banner-main-sec.children-banner-main .banner-inner-content .website-main-buttons a.call-btn:hover{
+    background: #fff;
+    color: #204713;
+}
+.banner-main-sec.children-banner-main .multi-step-form{
+    background: #ffffffc9;
+}
+/* Children Banner Css End */
+/* SCi-Fi Banner Css Start */
+section.banner-main-sec.sci-fi-banner-main{
+    background-image: url(../images/sci-fi-lp/sci-fi-banner-bg.webp);
+}
+.banner-main-sec.sci-fi-banner-main::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #254816;
+    opacity: 0.1;
+    z-index: -1;
+}
+.banner-main-sec.sci-fi-banner-main .multi-step-form{
+    background: #ffffffc9;
+}
+/* SCi-Fi Banner Css End */
+/* Mystery Banner Css Start */
+section.banner-main-sec.mystery-banner-main{
+    background-image: url(../images/mystery-lp/mystery-banner-bg.webp);
+}
+.banner-main-sec.mystery-banner-main::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #254816;
+    opacity: 0.1;
+    z-index: -1;
+}
+.banner-main-sec.mystery-banner-main .multi-step-form{
+    background: #ffffffc9;
+}
+/* Mystery Banner Css End */
+/* Halloween Banner Css Start */
+section.banner-main-sec.banner-main-halloween{
+    background-image: url(../images/halloween-lp/banner-halloween-bg.webp);
+}
+.banner-main-sec.banner-main-halloween .banner-inner-published-form{
+    background: #ffffff8f;
+}
+/* Halloween Banner Css End */
+/*Banner Main Section Css End Here*/
+
+/*Main Info Section Css Start Here*/
+section.main-info-wrap{
+    background: #FFFFFF;
+    padding: 50px 0;
+}
+.main-info-wrap .main-info-inner{
+    position: relative;
+    z-index: 1;
+}
+.main-info-inner .main-info-image{}
+.main-info-image img{
+    width: 85%;
+}
+.main-info-inner .main-info-content{
+    position: relative;
+    z-index: 1;
+}
+.main-info-content h2,
+.main-info-content h3{
+    color: #202020;
+    margin: 0 0 20px;
+}
+.main-info-content p{
+    color: #202020;
+}
+.main-info-content ul{
+    list-style: disc;
+    padding: 0 0 0 20px;
+    margin: 20px 0;
+}
+.main-info-content ul li{
+    color: #202020;
+    margin: 0 0 10px;
+}
+.main-info-content .badges-brands-inner{
+    margin: 30px 0 20px;
+}
+.badges-brands-inner .badges-brands-item{}
+.badges-brands-inner .badges-brands-item .badges-brands-img{
+    margin: 0 10px 0;
+}
+.badges-brands-inner .badges-brands-item .badges-brands-img img{
+    width: 100px;
+    margin: 0 auto;
+}
+.main-info-content .website-main-buttons{}
+.main-info-content .website-main-buttons button.chat-btn{
+    background: transparent;
+    color: #204713;
+    border: 2px solid #204713;
+}
+.main-info-content .website-main-buttons button.chat-btn:hover{
+    background: #204713;
+    color: #fff;
+}
+/* Main Info Section2 Css */
+section.main-info-wrap.main-info-wrap2{
+    background: #FAFFF3;
+}
+.main-info-wrap.main-info-wrap2 .main-info-inner .main-info-image{
+    position: absolute;
+    top: -125px;
+    left: -30px;
+}
+.main-info-wrap.main-info-wrap2 .main-info-inner .main-info-image img{
+    width: 60%;
+}
+/* Main Info Section2 Css */
+/*Main Info Section Css End Here*/
+
+/*Step Works Section Css Start Here*/
+section.step-works-wrap{
+    padding: 50px 0;
+}
+.step-works-wrap .step-works-head{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto 30px;
+}
+.step-works-head h3{
+    color: #202020;
+    margin: 0 0 10px;
+}
+.step-works-head p{
+    color: #202020;
+}
+.step-works-wrap .step-works-inner{}
+.step-works-inner .step-works-box{
+    margin: 0 0 50px;
+}
+.step-works-inner .step-works-box.marg-zero{
+    margin: 0;
+}
+.step-works-box span{
+    color: #254816;
+    font-size: 22px;
+    line-height: 28px;
+    display: block;
+}
+.step-works-box .works-box-head{
+    display: flex;
+    align-items: center;
+    margin: 0 0 15px 0;
+}
+.step-works-box .works-box-head i{
+    color: #202020;
+    margin: 0 10px 0 0;
+    border: 2px solid #202020;
+    border-radius: 100%;
+    padding: 3px;
+}
+.step-works-box .works-box-head h4{
+    color: #202020;
+    margin: 0;
+}
+.step-works-box p{
+    color: #202020;
+    padding: 0 5px 0 0;
+    min-height: 125px;
+    max-height: 150px;
+    overflow-y: auto;
+}
+.step-works-box p::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0.0);
+    border-radius: 0px;
+}
+.step-works-box p::-webkit-scrollbar{
+    width: 3px;
+    background: #b2b2b2;
+    border-radius: 0px;
+}
+.step-works-box p::-webkit-scrollbar-thumb{
+    background-color: #202020;
+    border-radius: 0px;
+}
+.step-works-inner .website-main-buttons{
+    margin: 20px 0 0;
+}
+.step-works-inner .website-main-buttons a.call-btn{
+    background: transparent;
+    color: #204713;
+    border: 2px solid #204713;
+}
+.step-works-inner .website-main-buttons a.call-btn:hover{
+    background: #204713;
+    color: #fff;
+}
+.step-works-wrap .step-works-img{}
+.step-works-wrap .step-works-img img{
+    width: 100%;
+}
+/*Step Works Section Css End Here*/
+
+/*Main CTA Section Css Start Here*/
+section.cta-main-wrap{
+    background-image: url(../images/cta-img-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 30px 0;
+    position: relative;
+    z-index: 1;
+}
+.cta-main-wrap .cta-left-img{
+    position: relative;
+}
+.cta-main-wrap .cta-left-img img{
+    width: 65%;
+    position: absolute;
+    top: -150px;
+}
+.cta-main-wrap .cta-main-content{
+    text-align: center;
+}
+.cta-main-content h2{
+    color: #FFFFFF;
+    margin: 0 0 10px;
+}
+.cta-main-content p{
+    color: #FFFFFF;
+}
+.cta-main-content .website-main-buttons{
+    justify-content: center;
+    margin: 20px 0 0 0;
+}
+.cta-main-content .website-main-buttons a.call-btn{
+    background: transparent;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+.cta-main-content .website-main-buttons a.call-btn:hover{
+    background: #FFFFFF;
+    color: #204713;
+}
+.cta-main-wrap .cta-right-img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: right;
+}
+.cta-main-wrap .cta-right-img img{
+    width: 75%;
+}
+/* Children CTA Main Css Start */
+section.cta-main-wrap.children-cta-main{
+    background-image: url(../images/children-lp/children-cta-bg.webp);
+}
+.cta-main-wrap.children-cta-main::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    opacity: 0.2;
+    z-index: -1;
+}
+.cta-main-wrap.children-cta-main .cta-main-content h2{
+    color: #204713;
+}
+.cta-main-wrap.children-cta-main .cta-main-content p{
+    color: #202020;
+}
+.cta-main-wrap.children-cta-main .cta-main-content .website-main-buttons a.call-btn{
+    background: #204713;
+    color: #FFFFFF;
+    border: 2px solid #204713;
+}
+.cta-main-wrap.children-cta-main .cta-main-content .website-main-buttons a.call-btn:hover{
+    background: #FFFFFF;
+    color: #204713;
+}
+/* Children CTA Main Css End */
+/* SCi-Fi CTA Main Css Start */
+section.cta-main-wrap.sci-fi-cta-main{
+    background-image: url(../images/sci-fi-lp/sci-fi-cta-bg.webp);
+}
+.cta-main-wrap.sci-fi-cta-main::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    opacity: 0.2;
+    z-index: -1;
+}
+/* SCi-Fi CTA Main Css End */
+/* Mystery CTA Main Css Start */
+section.cta-main-wrap.mystery-cta-main{
+    background-image: url(../images/mystery-lp/mystery-cta-bg.webp);
+}
+.cta-main-wrap.mystery-cta-main::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    opacity: 0.1;
+    z-index: -1;
+}
+/* Mystery CTA Main Css End */
+/* Halloween CTA Main Css Start */
+section.cta-main-wrap.halloween-cta-main{
+    background-image: url(../images/halloween-lp/halloween-cta-bg.webp);
+}
+.cta-main-wrap.halloween-cta-main::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #000;
+    opacity: 0.2;
+    z-index: -1;
+}
+.cta-main-wrap.halloween-cta-main .cta-main-content .website-main-buttons a.call-btn{
+    background: #204713;
+    color: #FFFFFF;
+    border: 2px solid #204713;
+}
+.cta-main-wrap.halloween-cta-main .cta-main-content .website-main-buttons a.call-btn:hover{
+    background: #FFFFFF;
+    color: #204713;
+}
+/* Halloween CTA Main Css End */
+/*Main CTA Section Css End Here*/
+
+/*Portfolio Publish Section Css Start Here*/
+section.portfolio-publish-wrap{
+    background-image: url(../images/potfolio-bg-img.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 0;
+}
+.portfolio-publish-wrap .portfolio-publish-head{
+    width: 90%;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+.portfolio-publish-head h2{
+    color: #254816;
+    margin: 0 0 10px;
+}
+.portfolio-publish-head p{
+    color: #202020;
+}
+.portfolio-publish-tablist .portfolio-publish-tablist-buttons{
+    margin: 0 0 30px;
+}
+.portfolio-publish-tablist-buttons ul.nav-pills{
+    justify-content: space-around;
+    align-items: center;
+}
+.portfolio-publish-tablist-buttons ul.nav-pills li.nav-item{
+    margin: 0 10px 10px;
+}
+.portfolio-publish-tablist-buttons ul.nav-pills li.nav-item button.nav-link{
+    color: #202020;
+    font-size: 18px;
+    border: none;
+    border-radius: 0;
+    padding: 5px 5px;
+    margin: 0;
+    text-transform: capitalize;
+    transition: all .3s ease-in-out;
+    position: relative;
+}
+.portfolio-publish-tablist-buttons ul.nav-pills li.nav-item button.nav-link.active,
+.portfolio-publish-tablist-buttons ul.nav-pills li.nav-item button.nav-link:hover{
+    background: none;
+    color: #204713;
+}
+.portfolio-publish-tablist-buttons ul.nav-pills li.nav-item button.nav-link.active::after,
+.portfolio-publish-tablist-buttons ul.nav-pills li.nav-item button.nav-link:hover::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -5px;
+    background: #204713;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+.portfolio-publish-wrap .portfolio-publish-tablist-content{}
+.portfolio-publish-tablist-content .portfolio-publish-tablist-inner{}
+.portfolio-publish-tablist-inner .portfolio-publish-tablist-item{
+    margin: 0 0px 20px;
+}
+.portfolio-publish-tablist-item a{
+    display: block;
+    text-align: center;
+}
+.portfolio-publish-tablist-item a img{
+    width: 75%;
+    margin: 0 auto;
+}
+/* Children Portfolio Publish Css Start */
+section.portfolio-publish-wrap.children-portfolio-bg{
+    background-image: url(../images/children-lp/children-portfolio-bg.webp);
+}
+/* Children Portfolio Publish Css End */
+/* SCi-Fi Portfolio Publish Css Start */
+section.portfolio-publish-wrap.sci-fi-portfolio-bg{
+    background-image: url(../images/sci-fi-lp/sci-fi-potfolio-bg.webp);
+}
+/* SCi-Fi Portfolio Publish Css End */
+/* Mystery Portfolio Publish Css Start */
+section.portfolio-publish-wrap.mystery-portfolio-bg{
+    background-image: url(../images/mystery-lp/mystery-potfolio-bg.webp);
+}
+/* Mystery Portfolio Publish Css End */
+/* Halloween Portfolio Publish Css Start */
+section.portfolio-publish-wrap.halloween-portfolio-bg{
+    background-image: url(../images/halloween-lp/halloween-potfolio-bg.webp);
+    position: relative;
+    z-index: 1;
+}
+.portfolio-publish-wrap.halloween-portfolio-bg::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #000;
+    opacity: 0.2;
+    z-index: -1;
+}
+.portfolio-publish-wrap.halloween-portfolio-bg .portfolio-publish-head h2{
+    color: #fff;
+}
+.portfolio-publish-wrap.halloween-portfolio-bg .portfolio-publish-tablist-buttons ul.nav-pills li.nav-item button.nav-link{
+    background: #ffffff94;
+    padding: 5px 10px;
+}
+/* Halloween Portfolio Publish Css End */
+/*Portfolio Publish Section Css End Here*/
+
+/*CTA Banner Section Css Start Here*/
+section.cta-banner-wrap{
+    background-image: url(../images/cta-ban-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 30px 0;
+    position: relative;
+    z-index: 1;
+}
+.cta-banner-wrap .cta-banner-content{}
+.cta-banner-content h3{
+    color: #FFFFFF;
+    margin: 0 0 10px;
+}
+.cta-banner-content p{
+    color: #FFFFFF;
+}
+.cta-banner-content .website-main-buttons{
+    margin: 20px 0 0 0;
+}
+.cta-banner-content .website-main-buttons a.call-btn{
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.cta-banner-content .website-main-buttons a.call-btn:hover{
+    background: #fff;
+    color: #204713;
+}
+.cta-banner-content .website-main-buttons button.chat-btn{
+    background: #fff;
+    color: #204713;
+    border: 2px solid #fff;
+}
+.cta-banner-content .website-main-buttons button.chat-btn:hover{
+    background: transparent;
+    color: #fff;
+}
+.cta-banner-wrap .cta-banner-img{
+    position: relative;
+    text-align: center;
+}
+.cta-banner-wrap .cta-banner-img img{
+    width: 250px;
+}
+/* Children CTA Banner Css Start */
+section.cta-banner-wrap.children-cta-banner{
+    background-image: url(../images/children-lp/children-ctaban-bg.webp);
+}
+.cta-banner-wrap.children-cta-banner .cta-banner-content h3{
+    color: #204713;
+}
+.cta-banner-wrap.children-cta-banner .cta-banner-content p{
+    color: #202020;
+}
+.cta-banner-wrap.children-cta-banner .cta-banner-content .website-main-buttons a.call-btn{
+    background: #204713;
+    color: #fff;
+    border: 2px solid #204713;
+}
+.cta-banner-wrap.children-cta-banner .cta-banner-content .website-main-buttons a.call-btn:hover{
+    background: #fff;
+    color: #204713;
+}
+.cta-banner-wrap.children-cta-banner .cta-banner-content .website-main-buttons button.chat-btn:hover{
+    background: #204713;
+    color: #fff;
+}
+/* Children CTA Banner Css End */
+/* SCi-Fi CTA Banner Css Start */
+section.cta-banner-wrap.sci-fi-cta-banner{
+    background-image: url(../images/sci-fi-lp/sci-fi-ctaban-bg.webp);
+}
+.cta-banner-wrap.sci-fi-cta-banner .cta-banner-content .website-main-buttons a.call-btn{
+    background: #204713;
+    color: #fff;
+    border: 2px solid #204713;
+}
+.cta-banner-wrap.sci-fi-cta-banner .cta-banner-content .website-main-buttons a.call-btn:hover{
+    background: #fff;
+    color: #204713;
+}
+/* SCi-Fi CTA Banner Css End */
+/* Mystery CTA Banner Css Start */
+section.cta-banner-wrap.mystery-cta-banner{
+    background-image: url(../images/mystery-lp/mystery-ctaban-bg.webp);
+}
+.cta-banner-wrap.mystery-cta-banner .cta-banner-content .website-main-buttons a.call-btn{
+    background: #204713;
+    color: #fff;
+    border: 2px solid #204713;
+}
+.cta-banner-wrap.mystery-cta-banner .cta-banner-content .website-main-buttons a.call-btn:hover{
+    background: #fff;
+    color: #204713;
+}
+.cta-banner-wrap.mystery-cta-banner .cta-banner-content .website-main-buttons button.chat-btn:hover{
+    background: #204713;
+    color: #fff;
+}
+/* Mystery CTA Banner Css End */
+/* Halloween CTA Banner Css Start */
+section.cta-banner-wrap.halloween-cta-banner{
+    background-image: url(../images/halloween-lp/halloween-ctaban-bg.webp);
+    padding: 75px 0;
+}
+.cta-banner-wrap.halloween-cta-banner .cta-banner-content .website-main-buttons a.call-btn{
+    background: #204713;
+    color: #fff;
+    border: 2px solid #204713;
+}
+.cta-banner-wrap.halloween-cta-banner .cta-banner-content .website-main-buttons a.call-btn:hover{
+    background: #fff;
+    color: #204713;
+}
+/* Halloween CTA Banner Css End */
+/*CTA Banner Section Css End Here*/
+
+/*Why Choose Section Css Start Here*/
+section.why-choose-wrap{
+    background: #FAFFF3;
+    padding: 50px 0;
+}
+.why-choose-wrap .why-choose-inner{}
+.why-choose-inner .why-choose-content{}
+.why-choose-content .why-choose-content-head{
+    margin: 0 0 20px;
+}
+.why-choose-content-head h3{
+    color: #202020;
+    margin: 0 0 10px;
+}
+.why-choose-content-head p{
+    color: #202020;
+}
+.why-choose-content .why-choose-content-box{
+    display: flex;
+    margin: 10px 0;
+}
+.why-choose-content-box i{
+    color: #202020;
+    width: 23px;
+    height: 22px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 2px 10px 0 0;
+    border: 3px solid #202020;
+    border-radius: 100%;
+    padding: 3px;
+}
+.why-choose-content-box .choose-content-box-info{
+    padding: 0 10px 0 0;
+    min-height: 100px;
+    max-height: 150px;
+    overflow-y: auto;
+}
+.choose-content-box-info::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0.0);
+    border-radius: 0px;
+}
+.choose-content-box-info::-webkit-scrollbar{
+    width: 3px;
+    background: #b2b2b2;
+    border-radius: 0px;
+}
+.choose-content-box-info::-webkit-scrollbar-thumb{
+    background-color: #202020;
+    border-radius: 0px;
+}
+.choose-content-box-info h4{
+    color: #202020;
+    margin: 0 0 10px;
+}
+.choose-content-box-info p{
+    color: #202020;
+}
+.why-choose-inner .why-choose-image{}
+.why-choose-image img{
+    width: 100%;
+}
+/*Why Choose Section Css End Here*/
+
+/*Contact Area Section Css Start Here*/
+section.contact-area-wrap{
+    padding: 30px 0;
+}
+.contact-area-wrap .contact-area-content{
+    margin: 0 30px 0 0;
+    height: 100%;
+}
+.contact-area-content .contact-area-head{
+    margin: 0 0 20px;
+}
+.contact-area-head h5{
+    color: #254816;
+    font-size: 52px;
+    line-height: 60px;
+    margin: 0;
+}
+.contact-area-content .contact-area-form{}
+.contact-area-form h4{
+    color: #202020;
+    margin: 0 0 5px;
+}
+.contact-area-form p{
+    color: #202020;
+}
+.contact-area-form form{
+    margin: 20px 0 0 0;
+}
+.contact-area-form .form-group{
+    margin: 0 0 20px;
+}
+.contact-area-form .form-group input{
+    background: #F3F3F3;
+    color: #202020;
+    font-size: 18px;
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 2px solid #254816;
+    outline: none;
+    padding: 15px 10px;
+    box-shadow: none;
+}
+.contact-area-form .form-group input::placeholder{
+    color: #5f5f5f;
+    font-size: 18px;
+}
+.contact-area-form .form-group textarea{
+    background: #F3F3F3;
+    color: #202020;
+    font-size: 18px;
+    width: 100%;
+    height: 120px;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 2px solid #254816;
+    resize: none;
+    outline: none;
+    padding: 10px 10px;
+    box-shadow: none;
+}
+.contact-area-form .form-group textarea::placeholder{
+    color: #5f5f5f;
+    font-size: 18px;
+}
+.contact-area-form .form-group button.submit-btn{
+    background: #254815;
+    color: #fff;
+    font-size: 18px;
+    width: 250px;
+    border: 2px solid #254816;
+    border-radius: 0;
+    padding: 10px 10px;
+    margin: 0;
+    text-transform: capitalize;
+    transition: all .3s ease-in-out;
+}
+.contact-area-form .form-group button.submit-btn:hover{
+    background: #F3F3F3;
+    color: #254816;
+}
+.contact-area-wrap .faqs-area-inner{
+    border-left: 2px solid #202020;
+    padding: 0 0 0 30px;
+    height: 100%;
+}
+.faqs-area-inner .faqs-area-head{
+    margin: 0 0 20px;
+}
+.faqs-area-head h5{
+    color: #202020;
+    font-size: 52px;
+    line-height: 60px;
+    margin: 0 0 10px;
+}
+.faqs-area-head p{
+    color: #202020;
+}
+.faqs-area-inner .faqs-sec-item{}
+.faqs-sec-item .accordion .accordion-item{
+    margin: 0 0 0px;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 2px solid #202020;
+}
+.faqs-sec-item .accordion .accordion-item .accordion-header{}
+.faqs-sec-item .accordion-item .accordion-header button.accordion-button{
+    font-family: "NoirPro-Medium";
+    background: transparent;
+    color: #202020;
+    font-size: 20px;
+    line-height: 26px;
+    box-shadow: none;
+    border-radius: 0px;
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    text-transform: capitalize;
+}
+.faqs-sec-item .accordion-item .accordion-header .accordion-button::after{
+    content: '\f107';
+    font-family: 'Font Awesome 6 Pro';
+    color: #202020;
+    font-size: 20px;
+    border-radius: 0px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 600;
+    transform: rotate(-90deg);
+    transition: all .3s ease-in-out;
+}
+.faqs-sec-item .accordion-item .accordion-header .accordion-button:not(.collapsed)::after{
+    content: '\f107';
+    font-family: 'Font Awesome 6 Pro';
+    transform: rotate(0deg);
+}
+.faqs-sec-item .accordion-item .accordion-collapse{}
+.faqs-sec-item .accordion-item .accordion-collapse .accordion-body{
+    background: transparent;
+    color: #202020;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+    padding: 10px 10px;
+    border-radius: 0px;
+}
+/*Contact Area Section Css End Here*/
+
+/**************************************************************************
+ --------------------- Home Page Folds Css End Here -----------------------
+ --------------------------------------------------------------------------
+**************************************************************************/
+
+/* Footer Css Start Here */
+footer.footer-main-sec{
+    background: #181818;
+    position: relative;
+    z-index: 1;
+}
+.footer-main-sec .footer-top{
+    padding: 50px 0 50px 0;
+}
+.footer-top .footer-logo-area{
+    margin: 0 0 20px;
+}
+.footer-logo-area .footer-logo{
+    width: 250px;
+    margin: 0 0 20px 0;
+}
+.footer-logo-area .footer-logo img{}
+.footer-logo-area h4{
+    color: #fff;
+    margin: 0 0 20px;
+}
+.footer-logo-area p{
+    color: #868686;
+}
+.footer-top .footer-info-area{}
+.footer-info-area h4{
+    color: #fff;
+    margin: 0 0 20px;
+}
+.footer-info-area ul{
+    display: flex;
+    flex-direction: column;
+}
+.footer-info-area ul li{
+    margin: 0 0 10px;
+}
+.footer-info-area ul li a{
+    color: #868686;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+    text-transform: lowercase;
+    display: flex;
+    align-items: center;
+    transition: all .3s ease-in-out;
+}
+.footer-info-area ul li a:hover{
+    color: #fff;
+}
+.footer-info-area ul li a i{
+    background: #5f5f5f;
+    color: #181818;
+    font-size: 16px;
+    font-weight: 600;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 10px 0 0;
+    border-radius: 5px;
+}
+.footer-info-area ul li a:hover i{
+    background: #204713;
+    color: #fff;
+}
+.footer-info-area ul li p{
+    color: #868686;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    transition: all .3s ease-in-out;
+}
+.footer-info-area ul li p:hover{
+    color: #fff;
+}
+.footer-info-area ul li p i{
+    background: #5f5f5f;
+    color: #181818;
+    font-size: 16px;
+    font-weight: 600;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 10px 0 0;
+    border-radius: 5px;
+}
+.footer-info-area ul li p:hover i{
+    background: #204713;
+    color: #fff;
+}
+.footer-top .footer-social-area{}
+.footer-social-area ul{
+    display: flex;
+    align-items: center;
+}
+.footer-social-area ul li{
+    margin: 0 2px 0;
+}
+.footer-social-area ul li a{
+    background: #5f5f5f;
+    color: #181818;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    line-height: 33px;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+}
+.footer-social-area ul li a:hover{
+    background: #204713;
+    color: #fff;
+}
+.footer-social-area ul li a i{}
+.footer-social-area ul li a img{
+    width: 20px;
+    margin: -5px 0 0 0;
+}
+.footer-main-sec .footer-bottom{
+    padding: 20px 0;
+    border-top: 2px solid #3c3c3c;
+}
+.footer-bottom .footer-links-area{}
+.footer-links-area ul.footer-nav-links{
+    display: flex;
+    align-items: center;
+}
+.footer-links-area ul.footer-nav-links li{
+    border-right: 1px solid #707070;
+    padding: 0 10px;
+    display: inline-block;
+    margin: 0;
+}
+.footer-links-area ul.footer-nav-links li:last-child{
+    border-right: none;
+}
+ul.footer-nav-links li a{
+    color: #868686;
+    font-size: 14px;
+    margin: 0;
+    transition: all .3s ease-in-out;
+    display: block;
+}
+ul.footer-nav-links li a:hover{
+    color: #fff;
+}
+.footer-bottom .footer-copyright{
+    text-align: right;
+}
+.footer-copyright p{
+    color: #868686;
+    margin: 0;
+}
+/* Footer Css End Here */
+
+@media only screen and (min-width: 1400px) and (max-width: 1599px){}
+@media only screen and (min-width: 1200px) and (max-width: 1399px){
+
+/**************************************************************************
+ --------------- Home Page Folds Responsive Css Start Here ----------------
+ --------------------------------------------------------------------------
+**************************************************************************/
+
+/*Banner Main Section Responsive Css Start Here*/
+/*Banner Published Form Responsive Css*/
+.banner-inner-published-form{
+    width: 90%;
+}
+/*Banner Published Form Responsive Css*/
+/*Banner Down Brands Section Responsive Css End Here*/
+
+/*Main Info Section Responsive Css Start Here*/
+/* Main Info Section2 Responsive Css */
+.main-info-wrap.main-info-wrap2 .main-info-inner .main-info-image{
+    top: -90px;
+    left: -25px;
+}
+/* Main Info Section2 Responsive Css */
+/*Main Info Section Responsive Css End Here*/
+
+/*Step Works Section Responsive Css Start Here*/
+.step-works-inner .step-works-box{
+    margin: 0 0 20px;
+}
+.step-works-box p{
+    min-height: 100px;
+    max-height: 125px;
+}
+/*Step Works Section Responsive Css End Here*/
+
+/*Main CTA Section Responsive Css Start Here*/
+.cta-main-wrap .cta-left-img img{
+    width: 75%;
+}
+.cta-main-wrap .cta-right-img{
+    right: -55px;
+    bottom: 0px;
+}
+/*Main CTA Section Responsive Css End Here*/
+
+/**************************************************************************
+ --------------- Home Page Folds Responsive Css End Here ------------------
+ --------------------------------------------------------------------------
+**************************************************************************/
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+/*Website Custom Style Responsive Css For Single Items Start Here*/
+
+/*Heading & Para Style Responsive Css*/
+h1{
+    font-size: 42px;
+    line-height: 48px;
+}
+h2{
+    font-size: 36px;
+    line-height: 42px;
+}
+h3{
+    font-size: 36px;
+    line-height: 42px;
+}
+/*Heading & Para Style Responsive Css*/
+
+/*Buttons Style Responsive Css*/
+.website-main-buttons a.read-more-btn,
+.website-main-buttons button.popup-btn,
+.website-main-buttons button.chat-btn,
+.website-main-buttons a.call-btn{
+    width: 175px;
+}
+/*Buttons Style Responsive Css*/
+
+/*Website Custom Style Responsive Css For Single Items End Here*/
+
+/**************************************************************************
+ --------------- Home Page Folds Responsive Css Start Here ----------------
+ --------------------------------------------------------------------------
+**************************************************************************/
+
+/*Banner Main Section Responsive Css Start Here*/
+/*Banner Published Form Responsive Css*/
+.banner-inner-published-form{
+    width: 90%;
+}
+/*Banner Published Form Responsive Css*/
+/*Banner Step Form Responsive Fold1 Start*/
+.multi-step-form{
+    width: 90%;
+}
+/*Banner Step Form Responsive Fold1 End*/
+/*Banner Down Brands Section Responsive Css End Here*/
+
+/*Main Info Section Responsive Css Start Here*/
+.main-info-image img{
+    width: 100%;
+}
+/* Main Info Section2 Responsive Css */
+.main-info-wrap.main-info-wrap2 .main-info-inner .main-info-image{
+    top: -75px;
+    left: -15px;
+}
+.main-info-wrap.main-info-wrap2 .main-info-inner .main-info-image img{
+    width: 50%;
+}
+/* Main Info Section2 Responsive Css */
+/*Main Info Section Responsive Css End Here*/
+
+/*Step Works Section Responsive Css Start Here*/
+.step-works-inner .step-works-box{
+    margin: 0 0 20px;
+}
+.step-works-box p{
+    min-height: 100px;
+    max-height: 125px;
+}
+/*Step Works Section Responsive Css End Here*/
+
+/*Main CTA Section Responsive Css Start Here*/
+.cta-main-wrap .cta-left-img img{
+    width: 90%;
+    top: -140px;
+}
+.cta-main-wrap .cta-right-img{
+    right: -55px;
+    bottom: 0px;
+}
+.cta-main-wrap .cta-right-img img{
+    width: 60%;
+}
+/*Main CTA Section Responsive Css End Here*/
+
+/*Contact Area Section Responsive Css Start Here*/
+.contact-area-head h5{
+    font-size: 46px;
+    line-height: 54px;
+}
+.faqs-area-head h5{
+    font-size: 46px;
+    line-height: 54px;
+}
+/*Contact Area Section Responsive Css End Here*/
+
+/**************************************************************************
+ --------------- Home Page Folds Responsive Css End Here ------------------
+ --------------------------------------------------------------------------
+**************************************************************************/
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+/*Website Custom Style Responsive Css For Single Items Start Here*/
+
+/*Heading & Para Style Responsive Css*/
+h1{
+    font-size: 38px;
+    line-height: 44px;
+}
+h2{
+    font-size: 32px;
+    line-height: 38px;
+}
+h3{
+    font-size: 32px;
+    line-height: 38px;
+}
+/*Heading & Para Style Responsive Css*/
+
+/*Buttons Style Responsive Css*/
+.website-main-buttons{
+    margin: 20px 0 0;
+    justify-content: center;
+}
+.website-main-buttons a.read-more-btn,
+.website-main-buttons button.popup-btn,
+.website-main-buttons button.chat-btn,
+.website-main-buttons a.call-btn{
+    font-size: 16px;
+    width: 175px;
+}
+/*Buttons Style Responsive Css*/
+
+/*Website Custom Style Responsive Css For Single Items End Here*/
+
+/*Header Responsive Css Start Here*/
+header nav.navbar .navbar-brand .logo{
+    width: 200px;
+}
+header.sticky .navbar-brand .logo{
+    width: 175px !important;
+}
+header nav.navbar .navbar-buttons a.call-btn{
+    font-size: 16px;
+    width: 160px;
+}
+header nav.navbar .navbar-buttons button.chat-btn{
+    font-size: 16px;
+    width: 160px;
+}
+/*Header Responsive Css End Here*/
+
+/**************************************************************************
+ --------------- Home Page Folds Responsive Css Start Here ----------------
+ --------------------------------------------------------------------------
+**************************************************************************/
+
+/*Banner Main Section Responsive Css Start Here*/
+section.banner-main-sec{
+    padding: 120px 0 50px;
+}
+.banner-main-sec .banner-inner-content{
+    text-align: center;
+    margin: 0 0 20px;
+}
+/*Banner Published Form Responsive Css*/
+.banner-inner-published-form{
+    width: 90%;
+    padding: 20px 20px;
+}
+.banner-inner-published-form h4{
+    font-size: 26px;
+    line-height: 32px;
+}
+.banner-inner-published-form .form-group-select .form-check-flex .form-check{
+    width: 47%;
+}
+/*Banner Published Form Responsive Css*/
+/* Children Banner Responsive Css Start */
+.banner-main-sec.children-banner-main::before{
+    background: #fff;
+    opacity: 0.7;
+}
+/* Children Banner Responsive Css End */
+/*Banner Down Brands Section Responsive Css End Here*/
+
+/*Main Info Section Responsive Css Start Here*/
+section.main-info-wrap{
+    padding: 30px 0;
+}
+.main-info-inner .main-info-image{
+    margin: 0 0 20px;
+    text-align: center;
+}
+.main-info-image img{
+    width: 75%;
+}
+/* Main Info Section2 Responsive Css */
+.main-info-wrap.main-info-wrap2 .main-info-inner .main-info-image{
+    position: inherit;
+    top: inherit;
+    left: inherit;
+    text-align: center;
+}
+.main-info-wrap.main-info-wrap2 .main-info-inner .main-info-image img{
+    width: 65%;
+}
+/* Main Info Section2 Responsive Css */
+/*Main Info Section Responsive Css End Here*/
+
+/*Step Works Section Responsive Css Start Here*/
+section.step-works-wrap{
+    padding: 30px 0;
+}
+.step-works-inner .step-works-box{
+    margin: 0 0 30px;
+}
+.step-works-inner .step-works-box.marg-zero{
+    margin: 0 0 30px;
+}
+.step-works-inner .website-main-buttons{
+    margin: 20px 0;
+}
+.step-works-wrap .step-works-img{
+    text-align: center;
+}
+.step-works-wrap .step-works-img img{
+    width: 65%;
+}
+/*Step Works Section Responsive Css End Here*/
+
+/*Main CTA Section Responsive Css Start Here*/
+section.cta-main-wrap{
+    padding: 30px 0;
+}
+.cta-main-wrap .cta-left-img{
+    text-align: center;
+    margin: 0 0 20px;
+}
+.cta-main-wrap .cta-left-img img{
+    width: 35%;
+    margin: 0 auto;
+    position: inherit;
+    top: inherit;
+}
+.cta-main-wrap .cta-main-content{
+    margin: 0 0 10px;
+}
+.cta-main-wrap .cta-right-img{
+    position: relative;
+    right: -150px;
+    bottom: -30px;
+    text-align: right;
+}
+.cta-main-wrap .cta-right-img img{
+    width: 75%;
+}
+/*Main CTA Section Responsive Css End Here*/
+
+/*Portfolio Publish Section Responsive Css Start Here*/
+section.portfolio-publish-wrap{
+    padding: 30px 0;
+}
+/*Portfolio Publish Section Responsive Css End Here*/
+
+/*Why Choose Section Responsive Css Start Here*/
+section.why-choose-wrap{
+    padding: 30px 0;
+}
+.why-choose-inner .why-choose-content{
+    margin: 0 0 20px;
+}
+.why-choose-content .why-choose-content-head{
+    text-align: center;
+}
+.why-choose-inner .why-choose-image{
+    text-align: center;
+}
+.why-choose-image img{
+    width: 75%;
+}
+/*Why Choose Section Responsive Css End Here*/
+
+/*Contact Area Section Responsive Css Start Here*/
+.contact-area-wrap .contact-area-content{
+    margin: 0 10px 0 0;
+}
+.contact-area-head h5{
+    font-size: 42px;
+    line-height: 48px;
+}
+.contact-area-form .form-group input{
+    font-size: 16px;
+}
+.contact-area-form .form-group input::placeholder{
+    font-size: 16px;
+}
+.contact-area-form .form-group textarea{
+    font-size: 16px;
+}
+.contact-area-form .form-group textarea::placeholder{
+    font-size: 16px;
+}
+.contact-area-form .form-group button.submit-btn{
+    font-size: 16px;
+}
+.contact-area-wrap .faqs-area-inner{
+    padding: 0 0 0 20px;
+}
+.faqs-area-head h5{
+    font-size: 42px;
+    line-height: 48px;
+}
+.faqs-sec-item .accordion-item .accordion-header button.accordion-button{
+    font-size: 18px;
+    line-height: 24px;
+}
+/*Contact Area Section Responsive Css End Here*/
+
+/**************************************************************************
+ --------------- Home Page Folds Responsive Css End Here ------------------
+ --------------------------------------------------------------------------
+**************************************************************************/
+
+/* Footer Responsive Css Start Here */
+.footer-main-sec .footer-top{
+    padding: 30px 0;
+}
+.footer-top .footer-social-area{
+    margin: 0 0 20px
+}
+/* Footer Responsive Css End Here */
+}
+@media only screen and (min-width: 576px) and (max-width: 767px){
+
+/*Website Custom Style Responsive Css For Single Items Start Here*/
+
+/*Heading & Para Style Responsive Css*/
+h1{
+    font-size: 38px;
+    line-height: 44px;
+}
+h2{
+    font-size: 32px;
+    line-height: 38px;
+}
+h3{
+    font-size: 32px;
+    line-height: 38px;
+}
+h4{
+    font-size: 16px;
+    line-height: 22px;
+}
+h5{
+    font-size: 18px;
+    line-height: 24px;
+}
+h6{
+    font-size: 16px;
+    line-height: 22px;
+}
+p{
+    font-size: 14px;
+    line-height: 20px;
+}
+li{
+    font-size: 14px;
+    line-height: 20px;
+}
+/*Heading & Para Style Responsive Css*/
+
+/*Buttons Style Responsive Css*/
+.website-main-buttons{
+    margin: 20px 0 0;
+    justify-content: center;
+}
+.website-main-buttons a.read-more-btn,
+.website-main-buttons button.popup-btn,
+.website-main-buttons button.chat-btn,
+.website-main-buttons a.call-btn{
+    padding: 10px 5px;
+    font-size: 16px;
+    width: 160px;
+}
+/*Buttons Style Responsive Css*/
+
+/*Website Custom Style Responsive Css For Single Items End Here*/
+
+/*Header Responsive Css Start Here*/
+header nav.navbar .navbar-brand .logo{
+    width: 175px;
+}
+header.sticky .navbar-brand .logo{
+    width: 175px !important;
+}
+header nav.navbar .navbar-buttons a.call-btn{
+    font-size: 16px;
+    width: 150px;
+    margin: 0 5px 0 0;
+}
+header nav.navbar .navbar-buttons button.chat-btn{
+    font-size: 16px;
+    width: 150px;
+    margin: 0 5px 0 0;
+}
+/*Header Responsive Css End Here*/
+
+/**************************************************************************
+ --------------- Home Page Folds Responsive Css Start Here ----------------
+ --------------------------------------------------------------------------
+**************************************************************************/
+
+/*Banner Main Section Responsive Css Start Here*/
+section.banner-main-sec{
+    padding: 120px 0 50px;
+}
+.banner-main-sec .banner-inner-content{
+    text-align: center;
+    margin: 0 0 20px;
+}
+/*Banner Published Form Responsive Css*/
+.banner-inner-published-form{
+    width: 100%;
+    padding: 20px 20px;
+}
+.banner-inner-published-form h4{
+    font-size: 26px;
+    line-height: 32px;
+}
+.banner-inner-published-form .form-group .form-select{
+    font-size: 14px;
+}
+.banner-inner-published-form .form-group-select .form-check-flex .form-check{
+    width: 47%;
+}
+.banner-inner-published-form .form-group-select .form-check-flex .form-check .form-check-label{
+    font-size: 14px;
+}
+.banner-inner-published-form .form-group button.submit-btn{
+    font-size: 16px;
+}
+/*Banner Published Form Responsive Css*/
+/*Banner Step Form Responsive Fold1 Start*/
+.multi-step-form{
+    width: 90%;
+}
+/*Banner Step Form Responsive Fold1 End*/
+/* Children Banner Responsive Css Start */
+.banner-main-sec.children-banner-main::before{
+    background: #fff;
+    opacity: 0.7;
+}
+/* Children Banner Responsive Css End */
+/*Banner Down Brands Section Responsive Css End Here*/
+
+/*Main Info Section Responsive Css Start Here*/
+section.main-info-wrap{
+    padding: 30px 0;
+}
+.main-info-inner .main-info-image{
+    margin: 0 0 20px;
+    text-align: center;
+}
+/* Main Info Section2 Responsive Css */
+.main-info-wrap.main-info-wrap2 .main-info-inner .main-info-image{
+    position: inherit;
+    top: inherit;
+    left: inherit;
+    text-align: center;
+}
+.main-info-wrap.main-info-wrap2 .main-info-inner .main-info-image img{
+    width: 75%;
+}
+/* Main Info Section2 Responsive Css */
+/*Main Info Section Responsive Css End Here*/
+
+/*Step Works Section Responsive Css Start Here*/
+section.step-works-wrap{
+    padding: 30px 0;
+}
+.step-works-wrap .step-works-head{
+    width: 100%;
+    margin: 0 auto 20px;
+}
+.step-works-inner .step-works-box{
+    margin: 0 0 30px;
+}
+.step-works-inner .step-works-box.marg-zero{
+    margin: 0 0 30px;
+}
+.step-works-inner .website-main-buttons{
+    margin: 20px 0;
+}
+.step-works-wrap .step-works-img{
+    text-align: center;
+}
+.step-works-wrap .step-works-img img{
+    width: 75%;
+}
+/*Step Works Section Responsive Css End Here*/
+
+/*Main CTA Section Responsive Css Start Here*/
+section.cta-main-wrap{
+    padding: 30px 0;
+}
+.cta-main-wrap .cta-left-img{
+    text-align: center;
+    margin: 0 0 20px;
+}
+.cta-main-wrap .cta-left-img img{
+    width: 50%;
+    margin: 0 auto;
+    position: inherit;
+    top: inherit;
+}
+.cta-main-wrap .cta-main-content{
+    margin: 0 0 10px;
+}
+.cta-main-wrap .cta-right-img{
+    position: relative;
+    right: -125px;
+    bottom: -30px;
+    text-align: right;
+}
+.cta-main-wrap .cta-right-img img{
+    width: 75%;
+}
+/*Main CTA Section Responsive Css End Here*/
+
+/*Portfolio Publish Section Responsive Css Start Here*/
+section.portfolio-publish-wrap{
+    padding: 30px 0;
+}
+.portfolio-publish-wrap .portfolio-publish-head{
+    width: 100%;
+    margin: 0 auto 20px;
+}
+.portfolio-publish-tablist .portfolio-publish-tablist-buttons{
+    margin: 0 0 20px;
+}
+.portfolio-publish-tablist-buttons ul.nav-pills{
+    justify-content: center;
+}
+.portfolio-publish-tablist-buttons ul.nav-pills li.nav-item button.nav-link{
+    font-size: 16px;
+}
+/*Portfolio Publish Section Responsive Css End Here*/
+
+/*CTA Banner Section Responsive Css Start Here*/
+.cta-banner-wrap .cta-banner-content{
+    text-align: center;
+    margin: 0 0 20px;
+}
+/*CTA Banner Section Responsive Css End Here*/
+
+/*Why Choose Section Responsive Css Start Here*/
+section.why-choose-wrap{
+    padding: 30px 0;
+}
+.why-choose-inner .why-choose-content{
+    margin: 0 0 20px;
+}
+.why-choose-content .why-choose-content-head{
+    text-align: center;
+}
+.why-choose-content .why-choose-content-box{
+    margin: 20px 0;
+}
+.why-choose-inner .why-choose-image{
+    text-align: center;
+}
+.why-choose-image img{
+    width: 75%;
+}
+/*Why Choose Section Responsive Css End Here*/
+
+/*Contact Area Section Responsive Css Start Here*/
+.contact-area-wrap .contact-area-content{
+    margin: 0;
+    text-align: center;
+}
+.contact-area-head h5{
+    font-size: 32px;
+    line-height: 38px;
+}
+.contact-area-form .form-group input{
+    font-size: 16px;
+}
+.contact-area-form .form-group input::placeholder{
+    font-size: 16px;
+}
+.contact-area-form .form-group textarea{
+    font-size: 16px;
+}
+.contact-area-form .form-group textarea::placeholder{
+    font-size: 16px;
+}
+.contact-area-form .form-group button.submit-btn{
+    font-size: 16px;
+}
+.contact-area-wrap .faqs-area-inner{
+    border-left: inherit;
+    border-top: 2px solid #202020;
+    padding: 20px 0 0 0;
+}
+.faqs-area-inner .faqs-area-head{
+    text-align: center;
+}
+.faqs-area-head h5{
+    font-size: 32px;
+    line-height: 38px;
+}
+.faqs-sec-item .accordion-item .accordion-header button.accordion-button{
+    font-size: 18px;
+    line-height: 24px;
+}
+.faqs-sec-item .accordion-item .accordion-collapse .accordion-body{
+    font-size: 14px;
+    line-height: 20px;
+}
+/*Contact Area Section Responsive Css End Here*/
+
+/**************************************************************************
+ --------------- Home Page Folds Responsive Css End Here ------------------
+ --------------------------------------------------------------------------
+**************************************************************************/
+
+/* Footer Responsive Css Start Here */
+.footer-main-sec .footer-top{
+    padding: 30px 0;
+}
+.footer-logo-area .footer-logo{
+    width: 200px;
+}
+.footer-top .footer-info-area{
+    margin: 0 0 20px;
+}
+.footer-info-area ul li a{
+    font-size: 14px;
+    line-height: 20px;
+}
+.footer-info-area ul li a i{
+    font-size: 14px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+}
+.footer-info-area ul li p i{
+    font-size: 14px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+}
+.footer-top .footer-social-area{
+    margin: 0 0 20px
+}
+.footer-social-area ul li a{
+    font-size: 16px;
+    width: 25px;
+    height: 25px;
+    line-height: 28px;
+}
+.footer-links-area ul.footer-nav-links{
+    justify-content: center;
+    margin: 0 0 5px;
+}
+.footer-bottom .footer-copyright{
+    text-align: center;
+}
+/* Footer Responsive Css End Here */
+}
+@media only screen and (min-width: 300px) and (max-width: 575px){
+
+/*Website Custom Style Responsive Css For Single Items Start Here*/
+
+/*Heading & Para Style Responsive Css*/
+h1{
+    font-size: 32px;
+    line-height: 38px;
+}
+h2{
+    font-size: 28px;
+    line-height: 34px;
+}
+h3{
+    font-size: 28px;
+    line-height: 34px;
+}
+h4{
+    font-size: 16px;
+    line-height: 22px;
+}
+h5{
+    font-size: 16px;
+    line-height: 22px;
+}
+h6{
+    font-size: 16px;
+    line-height: 22px;
+}
+p{
+    font-size: 14px;
+    line-height: 20px;
+}
+li{
+    font-size: 14px;
+    line-height: 20px;
+}
+/*Heading & Para Style Responsive Css*/
+
+/*Buttons Style Responsive Css*/
+.website-main-buttons{
+    margin: 20px 0 0;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.website-main-buttons a.read-more-btn,
+.website-main-buttons button.popup-btn,
+.website-main-buttons button.chat-btn,
+.website-main-buttons a.call-btn{
+    padding: 10px 5px;
+    margin: 0 5px 10px;
+    font-size: 16px;
+    width: 160px;
+}
+/*Buttons Style Responsive Css*/
+
+/*Website Custom Style Responsive Css For Single Items End Here*/
+
+/*Header Responsive Css Start Here*/
+header nav.navbar .navbar-brand .logo{
+    width: 145px;
+}
+header.sticky .navbar-brand .logo{
+    width: 145px !important;
+}
+header nav.navbar .navbar-buttons{
+    flex-direction: column;
+}
+header nav.navbar .navbar-buttons a.call-btn{
+    font-size: 14px;
+    width: 125px;
+    padding: 5px 5px;
+    margin: 0 0 5px;
+}
+header nav.navbar .navbar-buttons button.chat-btn{
+    font-size: 14px;
+    width: 125px;
+    padding: 5px 5px;
+    margin: 0;
+}
+/*Header Responsive Css End Here*/
+
+/**************************************************************************
+ --------------- Home Page Folds Responsive Css Start Here ----------------
+ --------------------------------------------------------------------------
+**************************************************************************/
+
+/*Banner Main Section Responsive Css Start Here*/
+section.banner-main-sec{
+    padding: 120px 0 50px;
+}
+.banner-main-sec .banner-inner-content{
+    text-align: center;
+    margin: 0 0 20px;
+}
+/*Banner Published Form Responsive Css*/
+.banner-inner-published-form{
+    width: 100%;
+    padding: 20px 20px;
+}
+.banner-inner-published-form h4{
+    font-size: 22px;
+    line-height: 28px;
+}
+.banner-inner-published-form .form-group .form-select{
+    font-size: 12px;
+}
+.banner-inner-published-form .form-group-select .form-check-flex .form-check{
+    width: 100%;
+}
+.banner-inner-published-form .form-group-select .form-check-flex .form-check .form-check-label{
+    font-size: 14px;
+}
+.banner-inner-published-form .form-group input{
+    font-size: 14px;
+}
+.banner-inner-published-form .form-group input::placeholder{
+    font-size: 14px;
+}
+.banner-inner-published-form .form-group button.submit-btn{
+    font-size: 16px;
+}
+/*Banner Published Form Responsive Css*/
+/*Banner Step Form Responsive Fold1 Start*/
+.multi-step-form{
+    width: 100%;
+    padding: 20px 20px;
+}
+.multi-step-form .selceted-box p{
+    font-size: 18px;
+    line-height: 24px;
+}
+.step-form-btns{
+    margin: 20px 0 0px 0;
+}
+.step-form-btns .previous-btn{
+    margin: 0 10px 10px;
+}
+.step-form-btns .next-btn{
+    margin: 0 10px 0;
+}
+.step-form-btns .submit-btn{
+    margin: 0 10px 0;
+}
+/*Banner Step Form Responsive Fold1 End*/
+/* Children Banner Responsive Css Start */
+.banner-main-sec.children-banner-main::before{
+    background: #fff;
+    opacity: 0.7;
+}
+/* Children Banner Responsive Css End */
+/*Banner Down Brands Section Responsive Css End Here*/
+
+/*Main Info Section Responsive Css Start Here*/
+section.main-info-wrap{
+    padding: 30px 0;
+}
+.main-info-inner .main-info-image{
+    margin: 0 0 20px;
+}
+.main-info-image img{
+    width: 100%;
+}
+/* Main Info Section2 Responsive Css */
+.main-info-wrap.main-info-wrap2 .main-info-inner .main-info-image{
+    position: inherit;
+    top: inherit;
+    left: inherit;
+    text-align: center;
+}
+.main-info-wrap.main-info-wrap2 .main-info-inner .main-info-image img{
+    width: 85%;
+}
+/* Main Info Section2 Responsive Css */
+/*Main Info Section Responsive Css End Here*/
+
+/*Step Works Section Responsive Css Start Here*/
+section.step-works-wrap{
+    padding: 30px 0;
+}
+.step-works-wrap .step-works-head{
+    width: 100%;
+    margin: 0 auto 20px;
+}
+.step-works-inner .step-works-box{
+    margin: 0 0 30px;
+}
+.step-works-inner .step-works-box.marg-zero{
+    margin: 0 0 30px;
+}
+.step-works-inner .website-main-buttons{
+    margin: 20px 0;
+}
+.step-works-wrap .step-works-img img{
+    width: 100%;
+}
+/*Step Works Section Responsive Css End Here*/
+
+/*Main CTA Section Responsive Css Start Here*/
+section.cta-main-wrap{
+    padding: 30px 0;
+}
+.cta-main-wrap .cta-left-img{
+    text-align: center;
+    margin: 0 0 20px;
+}
+.cta-main-wrap .cta-left-img img{
+    width: 75%;
+    margin: 0 auto;
+    position: inherit;
+    top: inherit;
+}
+.cta-main-wrap .cta-main-content{
+    margin: 0 0 10px;
+}
+.cta-main-wrap .cta-right-img{
+    position: relative;
+    right: -12px;
+    bottom: -30px;
+    text-align: right;
+}
+.cta-main-wrap .cta-right-img img{
+    width: 85%;
+}
+/*Main CTA Section Responsive Css End Here*/
+
+/*Portfolio Publish Section Responsive Css Start Here*/
+section.portfolio-publish-wrap{
+    padding: 30px 0;
+}
+.portfolio-publish-wrap .portfolio-publish-head{
+    width: 100%;
+    margin: 0 auto 20px;
+}
+.portfolio-publish-tablist .portfolio-publish-tablist-buttons{
+    margin: 0 0 20px;
+}
+.portfolio-publish-tablist-buttons ul.nav-pills{
+    justify-content: center;
+}
+.portfolio-publish-tablist-buttons ul.nav-pills li.nav-item button.nav-link{
+    font-size: 16px;
+}
+/*Portfolio Publish Section Responsive Css End Here*/
+
+/*CTA Banner Section Responsive Css Start Here*/
+.cta-banner-wrap .cta-banner-content{
+    text-align: center;
+    margin: 0 0 20px;
+}
+/*CTA Banner Section Responsive Css End Here*/
+
+/*Why Choose Section Responsive Css Start Here*/
+section.why-choose-wrap{
+    padding: 30px 0;
+}
+.why-choose-inner .why-choose-content{
+    margin: 0 0 20px;
+}
+.why-choose-content .why-choose-content-head{
+    text-align: center;
+}
+.why-choose-content .why-choose-content-box{
+    margin: 20px 0;
+}
+.why-choose-inner .why-choose-image{
+    text-align: center;
+}
+.why-choose-image img{
+    width:85%;
+}
+/*Why Choose Section Responsive Css End Here*/
+
+/*Contact Area Section Responsive Css Start Here*/
+.contact-area-wrap .contact-area-content{
+    margin: 0;
+    text-align: center;
+}
+.contact-area-head h5{
+    font-size: 32px;
+    line-height: 38px;
+}
+.contact-area-form .form-group input{
+    font-size: 16px;
+}
+.contact-area-form .form-group input::placeholder{
+    font-size: 16px;
+}
+.contact-area-form .form-group textarea{
+    font-size: 16px;
+}
+.contact-area-form .form-group textarea::placeholder{
+    font-size: 16px;
+}
+.contact-area-form .form-group button.submit-btn{
+    font-size: 16px;
+}
+.contact-area-wrap .faqs-area-inner{
+    border-left: inherit;
+    border-top: 2px solid #202020;
+    padding: 20px 0 0 0;
+}
+.faqs-area-inner .faqs-area-head{
+    text-align: center;
+}
+.faqs-area-head h5{
+    font-size: 32px;
+    line-height: 38px;
+}
+.faqs-sec-item .accordion-item .accordion-header button.accordion-button{
+    font-size: 18px;
+    line-height: 24px;
+}
+.faqs-sec-item .accordion-item .accordion-collapse .accordion-body{
+    font-size: 14px;
+    line-height: 20px;
+}
+/*Contact Area Section Responsive Css End Here*/
+
+/**************************************************************************
+ --------------- Home Page Folds Responsive Css End Here ------------------
+ --------------------------------------------------------------------------
+**************************************************************************/
+
+/* Footer Responsive Css Start Here */
+.footer-main-sec .footer-top{
+    padding: 30px 0;
+}
+.footer-logo-area .footer-logo{
+    width: 200px;
+}
+.footer-top .footer-info-area{
+    margin: 0 0 20px;
+}
+.footer-info-area ul li a{
+    font-size: 14px;
+    line-height: 20px;
+}
+.footer-info-area ul li a i{
+    font-size: 14px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+}
+.footer-info-area ul li p i{
+    font-size: 14px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+}
+.footer-top .footer-social-area{
+    margin: 0 0 20px
+}
+.footer-social-area ul li a{
+    font-size: 16px;
+    width: 25px;
+    height: 25px;
+    line-height: 28px;
+}
+.footer-links-area ul.footer-nav-links{
+    justify-content: center;
+    margin: 0 0 5px;
+}
+.footer-bottom .footer-copyright{
+    text-align: center;
+}
+/* Footer Responsive Css End Here */
+}

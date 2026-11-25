@@ -1,0 +1,13 @@
+.iti--allow-dropdown input, .iti--allow-dropdown input[type=text], .iti--allow-dropdown input[type=tel], .iti--separate-dial-code input, .iti--separate-dial-code input[type=text], .iti--separate-dial-code input[type=tel] {
+    width: 100%;
+    padding-left: 52px !important;
+}.iti {
+    width: 100%;
+}.form-div-btn input {
+    padding: 15px 45px;
+    border: 0;
+    border-radius: 6px;
+    background: #00ebd3 !important;
+    color: #fff;
+    font-size: 16px;
+}

@@ -1,0 +1,11 @@
+.iti {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 13px;
+    }
+    .iti input {
+     padding-left: 50px !important; 
+}input[name='phone'] {
+    padding-left: 75px !important;
+}

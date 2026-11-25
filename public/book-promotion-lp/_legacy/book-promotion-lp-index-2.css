@@ -1,0 +1,213 @@
+.overlay-bg-new-popup {
+background: rgba(0, 0, 0, 0.8);
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+width: 100%;
+height: 100%;
+z-index: 10;
+display: none;
+}
+.popupform-main-new-popup .close-btn {
+right: 0;
+top: 0;
+width: 50px;
+height: 50px;
+background: transparent;
+border: 0;
+color: #e6cb78;
+}
+.pop-form-new-popp .submit-btn {
+font-size: 18px;
+width: 100%;
+padding: 15px 0px;
+background-color: #000000;
+color: #fff;
+cursor: pointer;
+border-radius: 5px;
+position: relative;
+border: none;
+margin-top: 15px;
+width: 100%;
+margin: 10px 0 0 0px !important;
+font-weight: 700;
+}
+.close-btn {
+width: 45px;
+height: 45px;
+display: block;
+position: absolute;
+top: 18px;
+right: 0px;
+font-size: 18px;
+font-weight: 900;
+color: #fff;
+padding-top: 3px;
+text-align: center;
+border-radius: 50px;
+align-items: center;
+display: grid;
+z-index: 9;
+}
+.pop-box-2-new-pop img {
+/* box-shadow: 2px 2px 20px 9px #00000045; */
+position: relative;
+left: 17px;
+z-index: 1;
+width: 85%;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+.control-group input::placeholder {
+color: #9b7171;
+}
+.control-group textarea::placeholder {
+color: #9b7171;
+}
+.pop-form-new-popp .submit-btn {
+font-size: 18px;
+padding: 15px 0px;
+background: #fb2224;
+color: #fff;
+cursor: pointer;
+border-radius: 5px;
+position: relative;
+border: none;
+margin-top: 15px;
+width: 100%;
+}
+.popupform-main-new-popup.active {display: flex !important;justify-content: center;align-items: center;width: 100%;}
+.popupform-main-new-popup {position: fixed;top: 0;bottom: 0;left: 0;width: 100%;width: 100%;height: 100%;z-index: 9999;background-repeat: no-repeat;background-size: cover;}
+.pop-form-new-popp.ta-center-new-pop {background: url(/book-promotion-lp/christmas-form-bg.webp);background-size: cover;background-repeat: no-repeat;background-position: center center;width: 400px;height: 530px;border-radius: 0 23px 23px 0;position: relative;/* box-shadow: 2px 2px 20px 9px #00000045; */left: 0;}
+.pop-form-new-popp.ta-center-new-pop:before{
+    content: '';
+    background: url(/book-promotion-lp/christmas-popup-bg.webp);
+    position: absolute;
+    top: 30px;
+    left: -200px;
+    right:0;
+    bottom: 0;
+    width: 765px;
+    height: 448px;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.pop-box-2-new-pop{/* background:url('/book-promotion-lp/new-pop-bg-2.webp'); */}
+.pop-box-2-new-pop span {
+color: #f9b400;
+font-size: 33px;
+font-weight: 600;
+position: relative;
+top: -11px;
+}
+.pop-box-2-new-pop h3 {
+color: #fff;
+font-size: 20px;
+line-height: 30px;
+}
+.pop-box-2-new-pop {/* background: red; *//* height: auto; *//* width: auto; */text-align: center;padding: 0;background-size: cover;background-repeat: no-repeat;display: none;}
+.pop-form-new-popp.ta-center-new-pop {padding: 50px 15px 25px 15px;}
+.pop-form-new-popp.ta-center-new-pop h3 {
+color: #2d2d2d;
+font-size: 22px;
+line-height: 33px;
+text-align: center;
+margin: 0;
+}
+.popupform-main-new-popup {
+align-items: center;
+justify-content: center;
+}
+.pop-form-new-popp.ta-center-new-pop h3 span {font-weight: bold;color: #fff;}
+.pop-form-new-popp.ta-center-new-pop h5 {color: #fff;font-size: 26px;font-weight: 600;text-transform: uppercase;text-align: center;padding: 5px 0 10px 0;}
+.pop-form-new-popp.ta-center-new-pop input {width: 100%;border-width: 1px;border-color: #f2f2f2;border-style: solid;border-radius: 40px;background-color: #f2f2f2;height: auto;margin: 0 0 20px 0;padding: 10px 15px;}
+input {
+outline: none;
+}
+.pop-form-new-popp.ta-center-new-pop textarea {width: 100%;border-width: 1px;border-color: #f2f2f2;border-style: solid;border-radius: 10px;background-color: #f2f2f2;height: auto;margin: 0 0 20px 0;padding: 10px 15px;height: 80px;resize: none;}
+.pop-form-new-popp.ta-center-new-pop button {border-radius: 40px;background-color: #e6cb78;border: none;color: #000;font-size: 18px;font-weight: 400;display: table;margin: auto;padding: 10px 42px;width: auto;display: table;border: 1px solid #e6cb78;position: relative;z-index: 2;}
+.pop-form-new-popp.ta-center-new-pop input::placeholder {
+color: #000;
+}
+.pop-form-new-popp.ta-center-new-pop textarea::placeholder {
+color: #000;
+}
+.pop-box-2-new-pop {
+position: relative;
+margin-right: 3px;
+}
+.pop-form-new-popp .close-btn{/* display: none; */}
+.pop-form-new-popp.ta-center-new-pop h3 {
+margin: 0;
+}
+.popup-main-box {display: flex;align-items: center;justify-content: center;height: 100%;width: 100%;}
+.pop-form-new-popp.ta-center-new-pop button:hover {background: #fff;color: #d9034f;}
+/*.pop-ex-img {
+position: absolute;
+bottom: -115px;
+right: -75px;
+width: 70%;
+}*/
+@media (max-width:1550px) {
+.popup-main-box {
+transform: scale(0.8);
+position: relative;
+top: 20px;
+}
+}
+@media (min-width:200px) and (max-width:767px) {
+.pop-box-2-new-pop {
+display: none;
+}
+.pop-ex-img{
+display: none;
+}
+.pop-form-new-popp.ta-center-new-pop:before {
+    display: none;
+}
+
+.pop-form-new-popp.ta-center-new-pop {
+/*background: url(/book-promotion-lp/auto-pop-bg-2-mob.webp);*/
+/*background-repeat: no-repeat;
+background-size: cover;*/
+left: 0;
+}
+.popup-main-box {
+top: 0;
+transform: scale(1);
+}
+.pop-form-new-popp.ta-center-new-pop {
+width: 100%;
+height: auto;
+margin: 0px 10px;
+padding: 70px 0px 25px;
+border-radius: 23px;
+}
+.pop-form-new-popp .close-btn {
+display: block;
+top: 5px;
+right: 0px;
+background: none;
+border: none;
+color: #e6cb78;
+}
+.pop-form-new-popp.ta-center-new-pop button {
+/*background: #cf0e0e;*/
+}
+.pop-form-new-popp.ta-center-new-pop h3 {
+margin: 0 0 5px 0;
+}
+.pop-form-new-popp.ta-center-new-pop h3 span {
+color: #fff;
+}
+.pop-form-new-popp.ta-center-new-pop h5 {
+color: #fff;
+}
+}

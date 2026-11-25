@@ -1,0 +1,625 @@
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+@font-face { 
+  font-family:"Font Awesome 5";
+  font-style:normal;
+  font-weight:normal;
+  font-display:auto;
+  src:url(https://www.elitebookwriting.com/assets/fonts/fa-brands-400.eot);
+  src:url(https://www.elitebookwriting.com/assets/fonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(https://www.elitebookwriting.com/assets/fonts/fa-brands-400.woff2) format("woff2"),url(https://www.elitebookwriting.com/assets/fonts/fa-brands-400.woff) format("woff"),url(https://www.elitebookwriting.com/assets/fonts/fa-brands-400.ttf) format("truetype"),url(https://www.elitebookwriting.com/assets/fonts/fa-brands-400.svg#fontawesome) format("svg");
+} 
+@font-face { 
+  font-family:"Font Awesome 5";
+  font-style:normal;
+  font-weight:900;
+  font-display:auto;
+  src:url(https://www.elitebookwriting.com/assets/fonts/fa-duotone-900.eot);
+  src:url(https://www.elitebookwriting.com/assets/fonts/fa-duotone-900.eot?#iefix) format("embedded-opentype"),url(https://www.elitebookwriting.com/assets/fonts/fa-duotone-900.woff2) format("woff2"),url(https://www.elitebookwriting.com/assets/fonts/fa-duotone-900.woff) format("woff"),url(https://www.elitebookwriting.com/assets/fonts/fa-duotone-900.ttf) format("truetype"),url(https://www.elitebookwriting.com/assets/fonts/fa-duotone-900.svg#fontawesome) format("svg");
+} 
+@font-face { 
+  font-family:"Font Awesome 5";
+  font-style:normal;
+  font-weight:300;
+  font-display:auto;
+  src:url(https://www.elitebookwriting.com/assets/fonts/fa-light-300.eot);
+  src:url(https://www.elitebookwriting.com/assets/fonts/fa-light-300.eot?#iefix) format("embedded-opentype"),url(https://www.elitebookwriting.com/assets/fonts/fa-light-300.woff2) format("woff2"),url(https://www.elitebookwriting.com/assets/fonts/fa-light-300.woff) format("woff"),url(https://www.elitebookwriting.com/assets/fonts/fa-light-300.ttf) format("truetype"),url(https://www.elitebookwriting.com/assets/fonts/fa-light-300.svg#fontawesome) format("svg");
+} 
+@font-face { 
+  font-family:"Font Awesome 5";
+  font-style:normal;
+  font-weight:400;
+  font-display:auto;
+  src:url(https://www.elitebookwriting.com/assets/fonts/fa-regular-400.eot);
+  src:url(https://www.elitebookwriting.com/assets/fonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(https://www.elitebookwriting.com/assets/fonts/fa-regular-400.woff2) format("woff2"),url(https://www.elitebookwriting.com/assets/fonts/fa-regular-400.woff) format("woff"),url(https://www.elitebookwriting.com/assets/fonts/fa-regular-400.ttf) format("truetype"),url(https://www.elitebookwriting.com/assets/fonts/fa-regular-400.svg#fontawesome) format("svg");
+} 
+@font-face { 
+  font-family:"Font Awesome 5";
+  font-style:normal;
+  font-weight:900;
+  font-display:auto;
+  src:url(https://www.elitebookwriting.com/assets/fonts/fa-solid-900.eot);
+  src:url(https://www.elitebookwriting.com/assets/fonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(https://www.elitebookwriting.com/assets/fonts/fa-solid-900.woff2) format("woff2"),url(https://www.elitebookwriting.com/assets/fonts/fa-solid-900.woff) format("woff"),url(https://www.elitebookwriting.com/assets/fonts/fa-solid-900.ttf) format("truetype"),url(https://www.elitebookwriting.com/assets/fonts/fa-solid-900.svg#fontawesome) format("svg");
+} 
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap'); 
+@font-face { 
+  font-family:'FontAwesome';
+  src:url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0');
+  src:url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight:normal;
+  font-style:normal;
+} 
+* { 
+    box-sizing: border-box;
+} 
+
+body { 
+    margin:    0; 
+    font-family:  Poppins; 
+    font-size:  16px; 
+    font-weight:    400; 
+    line-height:  1; 
+    color:  #000;
+    text-align:    left; 
+    background-color:    #fff;
+    padding:   0; 
+    border:   0; 
+    font:   inherit; 
+    vertical-align:   baseline;
+    overflow-x: hidden; 
+} 
+
+*,:hover { 
+    outline: 0!important;
+} 
+
+html { 
+    font-family:   sans-serif; 
+    line-height:   1.15; 
+    -webkit-text-size-adjust:   100%; 
+    -webkit-tap-highlight-color:   transparent;
+    margin:  0; 
+    padding:  0; 
+    border:  0; 
+    font-size:  100%; 
+    font:  inherit; 
+    vertical-align:  baseline;
+    scroll-behavior: smooth;
+} 
+
+section { 
+    display:  block;
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    font-size: 100%; 
+    font: inherit; 
+    vertical-align: baseline;
+} 
+
+.pricing-slj { 
+    padding: 70px 0;
+} 
+
+section.pricing-slj { 
+    display: none;
+} 
+
+section.pricing-slj.pricing-sec-inner-ftp { 
+    display: block;
+} 
+
+*,:after,:before { 
+    box-sizing: border-box;
+} 
+
+:selection { 
+    background: #198754; 
+    color: #fff; 
+    text-shadow: none;
+} 
+
+.pricing-slj:selection { 
+    background: #198754; 
+    color: #fff; 
+    text-shadow: none;
+} 
+
+:-webkit-scrollbar { 
+    width: 5px; 
+    background-color: #f5f5f5;
+} 
+
+.pricing-slj:-webkit-scrollbar { 
+    width: 10px; 
+    background-color: #f5f5f5;
+} 
+
+:-webkit-scrollbar-track-piece { 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3); 
+    background-color: #fff;
+} 
+
+.pricing-slj:-webkit-scrollbar-track-piece { 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3); 
+    background-color: #fff;
+} 
+
+* { 
+    outline: 0!important;
+} 
+
+div { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    font-size: 100%; 
+    font: inherit; 
+    vertical-align: baseline;
+} 
+
+.container-rhk { 
+    width: 100%; 
+    padding-right: 15px; 
+    padding-left: 15px; 
+    margin-right: auto; 
+    margin-left: auto;
+} 
+
+@media (min-width: 576px){ 
+  .container-rhk { 
+    max-width: 540px;
+  } 
+}     
+
+@media (min-width: 768px){ 
+  .container-rhk { 
+    max-width: 720px;
+  } 
+}     
+
+@media (min-width: 992px){ 
+  .container-rhk { 
+    max-width: 960px;
+  } 
+}     
+
+@media (min-width: 1200px){ 
+  .container-rhk { 
+    max-width: 1140px;
+  } 
+}     
+
+.pricing-3fi { 
+    display:  flex; 
+    align-items:  center;
+    justify-content: space-between; 
+    margin: 0 0 50px;
+} 
+
+.row-q4k { 
+    display: -ms-flexbox; 
+    display: flex; 
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap; 
+    margin-right: -15px; 
+    margin-left: -15px;
+} 
+
+a { 
+    display:  inline-block;
+    color:    #007bff; 
+    text-decoration:    none; 
+    background-color:    transparent;
+    margin:   0; 
+    padding:   0; 
+    border:   0; 
+    font-size:   100%; 
+    font:   inherit; 
+    vertical-align:   baseline;
+    cursor: pointer;
+} 
+
+.btn-26k { 
+    padding:   20px 19px; 
+    color:   #fff; 
+    font-weight:   700; 
+    background-color:   #198754;
+    font-size:  15px;
+    overflow: hidden; 
+    position: relative; 
+    transition: .5s; 
+    z-index: 1;
+} 
+
+.btn-26k:before ,.btn-26k:before { 
+    position: absolute; 
+    content: ""; 
+    background: #002868; 
+    height: 100%; 
+    width: 100%; 
+    left: -235px; 
+    right: 0; 
+    top: 0; 
+    bottom: 0; 
+    transition: .5s; 
+    z-index: -1;
+} 
+
+a:hover { 
+    color:  #198754; 
+    text-decoration:  none;
+} 
+
+.btn-26k:hover { 
+    color: #ffff;
+} 
+
+li:first-child a:hover:before ,.btn-26k:hover:before ,button:hover:before ,.btn-26k:hover:before,a:hover:before ,button.submit.btn-26k:hover:before { 
+    left: 0;
+} 
+
+.col-ds9 { 
+    position: relative; 
+    width: 100%; 
+    padding-right: 15px; 
+    padding-left: 15px;
+} 
+
+@media (min-width: 768px){ 
+  .col-ds9 { 
+    -ms-flex: 0 0 33.333333%; 
+    flex: 0 0 33.333333%; 
+    max-width: 33.333333%;
+  } 
+}     
+
+span { 
+    display: inline-block;
+    margin:  0; 
+    padding:  0; 
+    border:  0; 
+    font-size:  100%; 
+    font:  inherit; 
+    vertical-align:  baseline;
+} 
+
+.pricing-head-jot span  { 
+    color: #000; 
+    font-size: 22px;
+} 
+
+h3 { 
+    display: block; 
+    margin-top:     0; 
+    margin-bottom:     .5rem; 
+    font-weight:  400;
+    line-height:    1.2;
+    font-size:   100%; 
+    margin:  0; 
+    padding:  0; 
+    border:  0; 
+    font:  inherit; 
+    vertical-align:  baseline;
+} 
+
+.pricing-head-jot h3  { 
+    color: #000; 
+    font-size: 45px; 
+    font-weight: 700; 
+    padding: 4px 0;
+} 
+
+p { 
+    margin-top:  0; 
+    margin-bottom:  1rem;
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    font-size: 100%; 
+    font: inherit; 
+    vertical-align: baseline;
+} 
+
+.pricing-head-jot p  { 
+    color: #3c3c3c; 
+    font-size: 16px; 
+    line-height: 25px;
+} 
+
+.box-qly { 
+    position: relative;
+} 
+
+.box-van { 
+    background: #efefef; 
+    border-radius: 6px; 
+    padding: 20px 23px; 
+    margin: 0 0 15px; 
+    transition: .5s;
+} 
+
+ul { 
+    margin-top:   0; 
+    margin-bottom:   1rem;
+    margin:  0; 
+    padding:  0; 
+    border:  0; 
+    font-size:  100%; 
+    font:  inherit; 
+    vertical-align:  baseline;
+    list-style: none;
+} 
+
+.list-mrg { 
+    padding: 18px 0 0; 
+    height: 400px; 
+    overflow-y: scroll;
+} 
+
+.btn-wnf { 
+    display:  flex; 
+    align-items:  center;
+    margin: 20px 0 0; 
+    justify-content: space-around;
+} 
+
+.simple-8x4 { 
+    position: relative;
+} 
+
+.box-qly.act-5jg .box-van  { 
+    background: #198754;
+} 
+
+.box-van span  { 
+    color: #198754; 
+    font-size: 40px; 
+    font-weight: 700; 
+    padding: 15px 0;
+} 
+
+li { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    font-size: 100%; 
+    font: inherit; 
+    vertical-align: baseline;
+} 
+
+.list-mrg li  { 
+    font-size: 15px; 
+    color: #000; 
+    padding: 0 0 15px; 
+    display: flex; 
+    line-height: 25px;
+} 
+
+img { 
+    vertical-align:   baseline;
+    border-style:   none;
+    margin:  0; 
+    padding:  0; 
+    border:  0; 
+    font-size:  100%; 
+    font:  inherit; 
+    max-width: 100%; 
+    height: auto;
+} 
+
+.tag-8t9 { 
+    position: absolute; 
+    right: 23px; 
+    top: -9px;
+} 
+
+h6 { 
+    display: block; 
+    margin-top:     0; 
+    margin-bottom:     .5rem; 
+    font-weight:  400;
+    line-height:    1.2;
+    font-size:   100%; 
+    margin:  0; 
+    padding:  0; 
+    border:  0; 
+    font:  inherit; 
+    vertical-align:  baseline;
+} 
+
+.simple-8x4 h6  { 
+    position: absolute; 
+    color: #fff; 
+    font-size: 20px; 
+    line-height: 24px; 
+    font-weight: 700; 
+    right: 0; 
+    text-align: center; 
+    left: 200px; 
+    margin: auto; 
+    top: 30px; 
+    bottom: 0;
+} 
+
+.box-qly.act-5jg .box-van span  { 
+    color: #ffff;
+} 
+
+i { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    font-size: 100%; 
+    font: inherit; 
+    vertical-align: baseline;
+} 
+
+.fa-2on { 
+    display:  inline-block; 
+    -moz-osx-font-smoothing:  grayscale;
+    -webkit-font-smoothing:  antialiased; 
+    font-style:   normal; 
+    font-variant:   normal; 
+    text-rendering:  auto; 
+    line-height:   1;
+    font-family:  "Font Awesome 5"; 
+    font-weight:  900;
+    font: normal normal normal 14px/1 FontAwesome; 
+    font-size: inherit; 
+} 
+
+.list-mrg li i  { 
+    color: #0540d3; 
+    padding: 6px 6px 0 0;
+} 
+
+.fa-bz1:before { 
+    content: "\f054";
+} 
+
+.btn-wnf li:first-child a  { 
+    color:  #ffff; 
+    font-size:  18px; 
+    padding:  15px 25px; 
+    font-weight:  700;
+    background: #198754; 
+    border: 1px solid #198754;
+} 
+
+.btn-wnf li:first-child a:hover  { 
+    background: 0 0; 
+    color: #198754;
+} 
+
+.btn-wnf li:nth-child(2) a  { 
+    color:  #ffff; 
+    font-size:  18px; 
+    padding:  15px 25px; 
+    font-weight:  700;
+    background: #002868; 
+    border: 1px solid #002868;
+} 
+
+.btn-wnf li:nth-child(2) a:hover  { 
+    background: 0 0; 
+    color: #002868;
+} 
+
+
+ul{
+    list-style-type: square;
+}

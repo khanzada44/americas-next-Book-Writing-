@@ -1,0 +1,83 @@
+@media (min-width:545px) and (max-width:921px) {
+			.tablet-columns-1 .ast-edd-container {
+				grid-template-columns: repeat(1, 1fr)
+			}
+
+			.tablet-columns-2 .ast-edd-container {
+				grid-template-columns: repeat(2, 1fr)
+			}
+
+			.tablet-columns-3 .ast-edd-container,
+			.edd_downloads_list[class*=edd_download_columns_] .edd_download {
+				grid-template-columns: repeat(3, 1fr)
+			}
+
+			.tablet-columns-4 .ast-edd-container {
+				grid-template-columns: repeat(4, 1fr)
+			}
+
+			.tablet-columns-5 .ast-edd-container {
+				grid-template-columns: repeat(5, 1fr)
+			}
+
+			.tablet-columns-6 .ast-edd-container {
+				grid-template-columns: repeat(6, 1fr)
+			}
+		}
+
+		@media (max-width:544px) {
+			.mobile-columns-1 .ast-edd-container {
+				grid-template-columns: repeat(1, 1fr)
+			}
+
+			.mobile-columns-3 .ast-edd-container {
+				grid-template-columns: repeat(3, 1fr)
+			}
+
+			.mobile-columns-4 .ast-edd-container {
+				grid-template-columns: repeat(4, 1fr)
+			}
+
+			.mobile-columns-5 .ast-edd-container {
+				grid-template-columns: repeat(5, 1fr)
+			}
+
+			.mobile-columns-6 .ast-edd-container {
+				grid-template-columns: repeat(6, 1fr)
+			}
+
+			.edd_downloads_list[class*=edd_download_columns_] .edd_download,
+			.edd_downloads_list[class*=edd_download_columns_] .edd_download:nth-child(2n+1),
+			.mobile-columns-2 .ast-edd-container {
+				grid-template-columns: repeat(2, 1fr)
+			}
+		}
+
+		@media (max-width:544px) {
+			[class*=columns-] .ast-edd-archive-article:nth-child(n) {
+				margin-right: 20px;
+				clear: none
+			}
+
+			.mobile-columns-1 .ast-edd-archive-article:nth-child(n) {
+				margin-right: 0
+			}
+
+			.edd_downloads_list[class*=edd_download_columns_] .edd_download:nth-child(2n),
+			.mobile-columns-2 .ast-edd-archive-article:nth-child(2n),
+			.mobile-columns-3 .ast-edd-archive-article:nth-child(3n),
+			.mobile-columns-4 .ast-edd-archive-article:nth-child(4n),
+			.mobile-columns-5 .ast-edd-archive-article:nth-child(5n),
+			.mobile-columns-6 .ast-edd-archive-article:nth-child(6n) {
+				margin-right: 0;
+				clear: right
+			}
+
+			.mobile-columns-2 .ast-edd-archive-article:nth-child(2n+1),
+			.mobile-columns-3 .ast-edd-archive-article:nth-child(3n+1),
+			.mobile-columns-4 .ast-edd-archive-article:nth-child(4n+1),
+			.mobile-columns-5 .ast-edd-archive-article:nth-child(5n+1),
+			.mobile-columns-6 .ast-edd-archive-article:nth-child(6n+1) {
+				clear: left
+			}
+		}

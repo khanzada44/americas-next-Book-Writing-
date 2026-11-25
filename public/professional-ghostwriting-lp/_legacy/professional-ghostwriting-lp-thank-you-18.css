@@ -1,0 +1,5 @@
+.edd-js-none .edd-has-js,
+		.edd-js .edd-no-js,
+		body.edd-js input.edd-no-js {
+			display: none
+		}

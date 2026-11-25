@@ -1,0 +1,31 @@
+/*! el - v3.13.3 - 28-05-2023 */
+																	.el-widget-text-editor.el-drop-cap-view-stacked .el-drop-cap {
+																		background-color: #69727d;
+																		color: #fff
+																	}
+
+																	.el-widget-text-editor.el-drop-cap-view-framed .el-drop-cap {
+																		color: #69727d;
+																		border: 3px solid;
+																		background-color: transparent
+																	}
+
+																	.el-widget-text-editor:not(.el-drop-cap-view-default) .el-drop-cap {
+																		margin-top: 8px
+																	}
+
+																	.el-widget-text-editor:not(.el-drop-cap-view-default) .el-drop-cap-letter {
+																		width: 1em;
+																		height: 1em
+																	}
+
+																	.el-widget-text-editor .el-drop-cap {
+																		float: left;
+																		text-align: center;
+																		line-height: 1;
+																		font-size: 50px
+																	}
+
+																	.el-widget-text-editor .el-drop-cap-letter {
+																		display: inline-block
+																	}

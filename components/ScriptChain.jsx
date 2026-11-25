@@ -1,12 +1,17 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
+import { usePathname } from 'next/navigation';
+import { bodyClasses } from '@/lib/bodyClasses';
 
 /*
- * Loads the original jQuery / slick / owl / lozad / Zendesk scripts.
- * They run one after another, in the same order as in the PHP pages,
- * and only after React has finished, so they never fight with React over the page.
- * Links between pages are normal <a> links, so every page loads them fresh.
+ * Loads the original jQuery / slick / lozad / Zendesk scripts once, one after another,
+ * after React has finished.
+ * Pages change without a reload (<Link>), so after every page change this:
+ *   - sets the page's <body class>,
+ *   - puts back onclick / javascript: links,
+ *   - runs window.abwPageInit() (public/assets/js/page-init.js): sliders, lazy images,
+ *     phone fields of the new page.
  */
 function load(src) {
   return new Promise((resolve) => {
@@ -30,7 +35,47 @@ function restoreInlineHandlers() {
   });
 }
 
+// lazy images when page-init.js is not on the page (landing pages)
+function showLazyImages() {
+  if (typeof window.lozad === 'function') {
+    window.lozad('.lozad:not([data-loaded])', { rootMargin: '10px 0px', threshold: 0.1 }).observe();
+    return;
+  }
+  document.querySelectorAll('.lozad:not([data-loaded])').forEach((el) => {
+    const d = el.dataset;
+    if (d.src) el.setAttribute('src', d.src);
+    if (d.srcset) el.setAttribute('srcset', d.srcset);
+    if (d.poster) el.setAttribute('poster', d.poster);
+    if (d.backgroundImage) el.style.backgroundImage = `url('${d.backgroundImage}')`;
+    el.querySelectorAll('source[data-src]').forEach((s) => s.setAttribute('src', s.dataset.src));
+    if (el.tagName === 'VIDEO') el.load();
+    el.setAttribute('data-loaded', 'true');
+  });
+}
+
+function setupPage() {
+  restoreInlineHandlers();
+  if (typeof window.abwPageInit === 'function') window.abwPageInit();
+  else showLazyImages();
+}
+
 export default function ScriptChain({ scripts }) {
+  const pathname = usePathname();
+  const lastPath = useRef(pathname);
+
+  // after a page change without a reload
+  useEffect(() => {
+    if (pathname === lastPath.current) return undefined;
+    lastPath.current = pathname;
+    const p = pathname.replace(/\/+$/, '') || '/';
+    document.body.className = bodyClasses[p] || '';
+    if (!window.__legacyReady) return undefined; // first load is still running; it sets the page up when done
+    setupPage();
+    const t = setTimeout(setupPage, 250); // images / sliders that appear a moment later
+    return () => clearTimeout(t);
+  }, [pathname]);
+
+  // first load: the old scripts, in order
   useEffect(() => {
     const key = scripts.join('|');
     window.__legacyLoaded = window.__legacyLoaded || {};
@@ -43,6 +88,8 @@ export default function ScriptChain({ scripts }) {
         // the old scripts waited for these events; they already happened, so send them again
         document.dispatchEvent(new Event('DOMContentLoaded', { bubbles: true }));
         window.dispatchEvent(new Event('load'));
+        window.__legacyReady = true;
+        setupPage();
       });
   }, [scripts]);
 

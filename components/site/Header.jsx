@@ -1,6 +1,8 @@
-/* Site header and menu (was inc/header.php). */
-import Link from "next/link";
+import Link from 'next/link';
 
+/* Site header and menu (was inc/header.php).
+ * <Link> opens pages without a reload; components/ScriptChain.jsx then runs
+ * public/assets/js/page-init.js again for the new page (sliders, lazy images, phone fields). */
 export default function Header() {
   return (
     <>

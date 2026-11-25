@@ -124,7 +124,7 @@
     }
 
     if (!cfg.endpoint) {
-      status(form, 'This form is not connected yet. Please call us at (833) 206-5993.', true);
+      status(form, 'This form is not connected yet. Please call us at 090008401.', true);
       if (window.console) console.warn('lead-forms.js: set NEXT_PUBLIC_LEAD_ENDPOINT in .env.local');
       return;
     }
@@ -156,7 +156,7 @@
       .catch(function () {
         form.removeAttribute('data-sending');
         for (var b2 = 0; b2 < buttons.length; b2++) buttons[b2].disabled = false;
-        status(form, 'We could not send your request. Please try again or call (833) 206-5993.', true);
+        status(form, 'We could not send your request. Please try again or call 090008401.', true);
       });
   }
 

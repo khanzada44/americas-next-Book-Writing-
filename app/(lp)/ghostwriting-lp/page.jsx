@@ -61,14 +61,14 @@ export default function GhostwritingLpPage() {
                 </div>
                 {" "}
                 <div className="col-xl-4 col-md-4 col-12">
-                  <a href="tel:(833) 206-5993" className="call d-flex align-items-center justify-content-end justify-content-md-start">
+                  <a href="tel:090008401" className="call d-flex align-items-center justify-content-end justify-content-md-start">
                     <span className="icon-phone me-2 icon"></span>
                     {" "}
                     <span className="d-none d-md-block">
                       <span className="clr-1 fw-700">Call Now</span>
                       <br />
                       {" "}
-                      <span className="fw-700">(833) 206-5993</span>
+                      <span className="fw-700">090008401</span>
                     </span>
                   </a>
                 </div>
@@ -204,7 +204,7 @@ export default function GhostwritingLpPage() {
                 </div>
                 {" "}
                 <div className="col-xl-4 col-lg-4 col-md-6 mb-2 col-6">
-                  <a href="tel:(833) 206-5993" className="call d-flex align-items-center">
+                  <a href="tel:090008401" className="call d-flex align-items-center">
                     <span className="icon-phone me-2 icon"></span>
                     {" "}
                     <span className="">
@@ -212,7 +212,7 @@ export default function GhostwritingLpPage() {
                       {" "}
                       <br />
                       {" "}
-                      <span className="fw-700">(833) 206-5993</span>
+                      <span className="fw-700">090008401</span>
                     </span>
                   </a>
                 </div>
@@ -235,14 +235,14 @@ export default function GhostwritingLpPage() {
             </div>
             {" "}
             <div className="col-lg-2 col-md-6 mt-md-5 pt-4">
-              <a href="tel:(833) 206-5993" className="call d-flex align-items-center justify-content-md-start justify-content-center">
+              <a href="tel:090008401" className="call d-flex align-items-center justify-content-md-start justify-content-center">
                 <span className="icon-phone me-2 icon"></span>
                 {" "}
                 <span className="">
                   <span className="clr-1 fw-700">Call Now</span>
                   <br />
                   {" "}
-                  <span className="fw-700 text-white">(833) 206-5993</span>
+                  <span className="fw-700 text-white">090008401</span>
                 </span>
               </a>
             </div>
@@ -285,7 +285,7 @@ export default function GhostwritingLpPage() {
                 </div>
                 {" "}
                 <div className="col-xl-4 col-lg-4 col-md-6 mb-2 col-6">
-                  <a href="tel:(833) 206-5993" className="call d-flex align-items-center">
+                  <a href="tel:090008401" className="call d-flex align-items-center">
                     <span className="icon-phone me-2 icon"></span>
                     {" "}
                     <span className="">
@@ -293,7 +293,7 @@ export default function GhostwritingLpPage() {
                       {" "}
                       <br />
                       {" "}
-                      <span className="fw-700">(833) 206-5993</span>
+                      <span className="fw-700">090008401</span>
                     </span>
                   </a>
                 </div>
@@ -408,10 +408,10 @@ export default function GhostwritingLpPage() {
                 <div className="action">
                   <div className="row px-4 mb-2">
                     <div className="col-6">
-                      <a href="tel:(833) 206-5993">
+                      <a href="tel:090008401">
                         Share your idea?
                         <br />
-                        <span className="f-18 fw-700">(833) 206-5993</span>
+                        <span className="f-18 fw-700">090008401</span>
                       </a>
                     </div>
                     {" "}
@@ -472,10 +472,10 @@ export default function GhostwritingLpPage() {
                 <div className="action">
                   <div className="row px-4 mb-2">
                     <div className="col-6">
-                      <a href="tel:(833) 206-5993">
+                      <a href="tel:090008401">
                         Share your idea?
                         <br />
-                        <span className="f-18 fw-700">(833) 206-5993</span>
+                        <span className="f-18 fw-700">090008401</span>
                       </a>
                     </div>
                     {" "}
@@ -530,10 +530,10 @@ export default function GhostwritingLpPage() {
                 <div className="action">
                   <div className="row px-4 mb-2">
                     <div className="col-6">
-                      <a href="tel:(833) 206-5993">
+                      <a href="tel:090008401">
                         Share your idea?
                         <br />
-                        <span className="f-18 fw-700">(833) 206-5993</span>
+                        <span className="f-18 fw-700">090008401</span>
                       </a>
                     </div>
                     {" "}
@@ -617,7 +617,7 @@ export default function GhostwritingLpPage() {
                       </div>
                       {" "}
                       <div className="col-xl-4 col-lg-4 col-md-6 mb-2 col-6">
-                        <a href="tel:(833) 206-5993" className="call d-flex align-items-center">
+                        <a href="tel:090008401" className="call d-flex align-items-center">
                           <span className="icon-phone me-2 icon"></span>
                           {" "}
                           <span className="">
@@ -625,7 +625,7 @@ export default function GhostwritingLpPage() {
                             {" "}
                             <br />
                             {" "}
-                            <span className="fw-700">(833) 206-5993</span>
+                            <span className="fw-700">090008401</span>
                           </span>
                         </a>
                       </div>
@@ -679,7 +679,7 @@ export default function GhostwritingLpPage() {
                       </div>
                       {" "}
                       <div className="col-xl-4 col-lg-4 col-md-6 mb-2 col-6">
-                        <a href="tel:(833) 206-5993" className="call d-flex align-items-center">
+                        <a href="tel:090008401" className="call d-flex align-items-center">
                           <span className="icon-phone me-2 icon"></span>
                           {" "}
                           <span className="">
@@ -687,7 +687,7 @@ export default function GhostwritingLpPage() {
                             {" "}
                             <br />
                             {" "}
-                            <span className="fw-700">(833) 206-5993</span>
+                            <span className="fw-700">090008401</span>
                           </span>
                         </a>
                       </div>
@@ -741,7 +741,7 @@ export default function GhostwritingLpPage() {
                       </div>
                       {" "}
                       <div className="col-xl-4 col-lg-4 col-md-6 mb-2 col-6">
-                        <a href="tel:(833) 206-5993" className="call d-flex align-items-center">
+                        <a href="tel:090008401" className="call d-flex align-items-center">
                           <span className="icon-phone me-2 icon"></span>
                           {" "}
                           <span className="">
@@ -749,7 +749,7 @@ export default function GhostwritingLpPage() {
                             {" "}
                             <br />
                             {" "}
-                            <span className="fw-700">(833) 206-5993</span>
+                            <span className="fw-700">090008401</span>
                           </span>
                         </a>
                       </div>
@@ -803,7 +803,7 @@ export default function GhostwritingLpPage() {
                       </div>
                       {" "}
                       <div className="col-xl-4 col-lg-4 col-md-6 mb-2 col-6">
-                        <a href="tel:(833) 206-5993" className="call d-flex align-items-center">
+                        <a href="tel:090008401" className="call d-flex align-items-center">
                           <span className="icon-phone me-2 icon"></span>
                           {" "}
                           <span className="">
@@ -811,7 +811,7 @@ export default function GhostwritingLpPage() {
                             {" "}
                             <br />
                             {" "}
-                            <span className="fw-700">(833) 206-5993</span>
+                            <span className="fw-700">090008401</span>
                           </span>
                         </a>
                       </div>
@@ -865,7 +865,7 @@ export default function GhostwritingLpPage() {
                       </div>
                       {" "}
                       <div className="col-xl-4 col-lg-4 col-md-6 mb-2 col-6">
-                        <a href="tel:(833) 206-5993" className="call d-flex align-items-center">
+                        <a href="tel:090008401" className="call d-flex align-items-center">
                           <span className="icon-phone me-2 icon"></span>
                           {" "}
                           <span className="">
@@ -873,7 +873,7 @@ export default function GhostwritingLpPage() {
                             {" "}
                             <br />
                             {" "}
-                            <span className="fw-700">(833) 206-5993</span>
+                            <span className="fw-700">090008401</span>
                           </span>
                         </a>
                       </div>
@@ -927,7 +927,7 @@ export default function GhostwritingLpPage() {
                       </div>
                       {" "}
                       <div className="col-xl-4 col-lg-4 col-md-6 mb-2 col-6">
-                        <a href="tel:(833) 206-5993" className="call d-flex align-items-center">
+                        <a href="tel:090008401" className="call d-flex align-items-center">
                           <span className="icon-phone me-2 icon"></span>
                           {" "}
                           <span className="">
@@ -935,7 +935,7 @@ export default function GhostwritingLpPage() {
                             {" "}
                             <br />
                             {" "}
-                            <span className="fw-700">(833) 206-5993</span>
+                            <span className="fw-700">090008401</span>
                           </span>
                         </a>
                       </div>
@@ -1074,14 +1074,14 @@ export default function GhostwritingLpPage() {
             </div>
             {" "}
             <div className="col-lg-2 col-md-6 mt-md-5 pt-4">
-              <a href="tel:(833) 206-5993" className="call d-flex align-items-center justify-content-md-start justify-content-center">
+              <a href="tel:090008401" className="call d-flex align-items-center justify-content-md-start justify-content-center">
                 <span className="icon-phone me-2 icon"></span>
                 {" "}
                 <span className="">
                   <span className="clr-1 fw-700">Call Now</span>
                   <br />
                   {" "}
-                  <span className="fw-700 text-white">(833) 206-5993</span>
+                  <span className="fw-700 text-white">090008401</span>
                 </span>
               </a>
             </div>
@@ -1198,7 +1198,7 @@ export default function GhostwritingLpPage() {
               </div>
               {" "}
               <div className="col-xl-5 col-lg-6 text-white">
-                <a href="tel:(833) 206-5993" className="call mb-3 text-start d-flex align-items-center">
+                <a href="tel:090008401" className="call mb-3 text-start d-flex align-items-center">
                   <span className="icon-phone me-2 icon"></span>
                   {" "}
                   <span className="">
@@ -1206,7 +1206,7 @@ export default function GhostwritingLpPage() {
                     {" "}
                     <br />
                     {" "}
-                    <span className="fw-700">(833) 206-5993</span>
+                    <span className="fw-700">090008401</span>
                   </span>
                 </a>
                 {" "}

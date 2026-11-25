@@ -46,7 +46,7 @@ export default function PublishingNewPage() {
             </a>
             {" "}
             <div className="navbar-buttons">
-              <a href="tel:+1-(833) 206-5993" className="call-btn">Schedule A Call</a>
+              <a href="tel:+1-090008401" className="call-btn">Schedule A Call</a>
               {" "}
               <button className="chat-btn">Live Chat Now!</button>
             </div>
@@ -73,7 +73,7 @@ export default function PublishingNewPage() {
                   <div className="website-main-buttons">
                     <button className="chat-btn">Live Chat Now!</button>
                     {" "}
-                    <a href="tel:+1-(833) 206-5993" className="call-btn">Call Us Now</a>
+                    <a href="tel:+1-090008401" className="call-btn">Call Us Now</a>
                   </div>
                 </div>
               </div>
@@ -380,7 +380,7 @@ export default function PublishingNewPage() {
                     </div>
                   </div>
                   {" "}
-                  <div className="website-main-buttons"><a href="tel:+1-(833) 206-5993" className="call-btn">Call Now</a></div>
+                  <div className="website-main-buttons"><a href="tel:+1-090008401" className="call-btn">Call Now</a></div>
                 </div>
               </div>
               {" "}
@@ -412,7 +412,7 @@ export default function PublishingNewPage() {
                     Choosing the wrong publishing company for your book is like working hard on something and them throwing it out in the trash. Give the care your book deserves by hiring the right professionals.
                   </p>
                   {" "}
-                  <div className="website-main-buttons"><a href="tel:+1-(833) 206-5993" className="call-btn">Call Now</a></div>
+                  <div className="website-main-buttons"><a href="tel:+1-090008401" className="call-btn">Call Now</a></div>
                 </div>
               </div>
               {" "}
@@ -879,7 +879,7 @@ export default function PublishingNewPage() {
                   </p>
                   {" "}
                   <div className="website-main-buttons">
-                    <a href="tel:+1-(833) 206-5993" className="call-btn">Call Us Now</a>
+                    <a href="tel:+1-090008401" className="call-btn">Call Us Now</a>
                     {" "}
                     <button className="chat-btn">Live Chat Now!</button>
                   </div>
@@ -1142,9 +1142,9 @@ export default function PublishingNewPage() {
                           </p>
                         </li>
                         <li>
-                          <a href="tel:+1-(833) 206-5993">
+                          <a href="tel:+1-090008401">
                             <i className="fa-solid fa-phone"></i>
-                            {" +1-(833) 206-5993"}
+                            {" +1-090008401"}
                           </a>
                         </li>
                         <li>
@@ -1169,9 +1169,9 @@ export default function PublishingNewPage() {
                           </p>
                         </li>
                         <li>
-                          <a href="tel:+1-(833) 206-5993">
+                          <a href="tel:+1-090008401">
                             <i className="fa-solid fa-phone"></i>
-                            {" +1-(833) 206-5993"}
+                            {" +1-090008401"}
                           </a>
                         </li>
                       </ul>

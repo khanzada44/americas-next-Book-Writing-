@@ -60,14 +60,14 @@ export default function BookPromotionsPage() {
                 </div>
                 {" "}
                 <div className="col-xl-4 col-md-4 col-12">
-                  <a href="tel:(833) 206-5993" className="call d-flex align-items-center justify-content-end justify-content-md-start">
+                  <a href="tel:090008401" className="call d-flex align-items-center justify-content-end justify-content-md-start">
                     <span className="icon-phone me-2 icon"></span>
                     {" "}
                     <span className="d-none d-md-block">
                       <span className="clr-1 fw-700">Call Now</span>
                       <br />
                       {" "}
-                      <span className="fw-700">(833) 206-5993</span>
+                      <span className="fw-700">090008401</span>
                     </span>
                   </a>
                 </div>
@@ -300,14 +300,14 @@ export default function BookPromotionsPage() {
             </div>
             {" "}
             <div className="col-lg-2 col-md-6 mt-5">
-              <a href="tel:(833) 206-5993" className="call d-flex align-items-center justify-content-start">
+              <a href="tel:090008401" className="call d-flex align-items-center justify-content-start">
                 <span className="icon-phone me-2 icon"></span>
                 {" "}
                 <span className="">
                   <span className="clr-1 fw-700">Call Now</span>
                   <br />
                   {" "}
-                  <span className="fw-700 text-white">(833) 206-5993</span>
+                  <span className="fw-700 text-white">090008401</span>
                 </span>
               </a>
             </div>
@@ -389,14 +389,14 @@ export default function BookPromotionsPage() {
                 </div>
                 {" "}
                 <div className="col-xl-4 col-lg-5 col-md-6 col-12">
-                  <a href="tel:(833) 206-5993" className="call d-flex align-items-center justify-content-md-end justify-content-md-start">
+                  <a href="tel:090008401" className="call d-flex align-items-center justify-content-md-end justify-content-md-start">
                     <span className="icon-phone me-2 icon"></span>
                     {" "}
                     <span className="">
                       <span className="clr-1 fw-700">Call Now</span>
                       <br />
                       {" "}
-                      <span className="fw-700">(833) 206-5993</span>
+                      <span className="fw-700">090008401</span>
                     </span>
                   </a>
                 </div>
@@ -526,10 +526,10 @@ export default function BookPromotionsPage() {
                 <div className="action">
                   <div className="row px-4 mb-2">
                     <div className="col-6">
-                      <a href="tel:(833) 206-5993">
+                      <a href="tel:090008401">
                         Share your idea?
                         <br />
-                        <span className="f-18 fw-700">(833) 206-5993</span>
+                        <span className="f-18 fw-700">090008401</span>
                       </a>
                     </div>
                     {" "}
@@ -629,10 +629,10 @@ export default function BookPromotionsPage() {
                 <div className="action">
                   <div className="row px-4 mb-2">
                     <div className="col-6">
-                      <a href="tel:(833) 206-5993">
+                      <a href="tel:090008401">
                         Share your idea?
                         <br />
-                        <span className="f-18 fw-700">(833) 206-5993</span>
+                        <span className="f-18 fw-700">090008401</span>
                       </a>
                     </div>
                     {" "}
@@ -744,10 +744,10 @@ export default function BookPromotionsPage() {
                 <div className="action">
                   <div className="row px-4 mb-2">
                     <div className="col-6">
-                      <a href="tel:(833) 206-5993">
+                      <a href="tel:090008401">
                         Share your idea?
                         <br />
-                        <span className="f-18 fw-700">(833) 206-5993</span>
+                        <span className="f-18 fw-700">090008401</span>
                       </a>
                     </div>
                     {" "}
@@ -829,14 +829,14 @@ export default function BookPromotionsPage() {
             </div>
             {" "}
             <div className="col-lg-2 col-md-6 mt-5">
-              <a href="tel:(833) 206-5993" className="call d-flex align-items-center justify-content-start">
+              <a href="tel:090008401" className="call d-flex align-items-center justify-content-start">
                 <span className="icon-phone me-2 icon"></span>
                 {" "}
                 <span className="">
                   <span className="clr-1 fw-700">Call Now</span>
                   <br />
                   {" "}
-                  <span className="fw-700 text-white">(833) 206-5993</span>
+                  <span className="fw-700 text-white">090008401</span>
                 </span>
               </a>
             </div>

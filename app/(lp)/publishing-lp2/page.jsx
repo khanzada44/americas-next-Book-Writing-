@@ -79,7 +79,7 @@ export default function PublishingLp2Page() {
                     <li className="last">
                       <a href="tel:+18444780616">
                         <span><img className="lazy" src="/publishing-lp2/images/tele-icon.webp" /></span>
-                        (833) 206-5993
+                        090008401
                       </a>
                     </li>
                   </ul>
@@ -116,9 +116,9 @@ export default function PublishingLp2Page() {
                     </a>
                   </li>
                   <li className="last">
-                    <a href="tel:(833) 206-5993">
+                    <a href="tel:090008401">
                       <span><img className="lazy" src="/publishing-lp2/images/tele-icon.webp" /></span>
-                      (833) 206-5993
+                      090008401
                     </a>
                   </li>
                 </ul>
@@ -254,9 +254,9 @@ export default function PublishingLp2Page() {
                   </a>
                 </li>
                 <li className="last">
-                  <a href="tel:(833) 206-5993">
+                  <a href="tel:090008401">
                     <span><img className="lazy" src="/publishing-lp2/images/tele-icon.webp" /></span>
-                    (833) 206-5993
+                    090008401
                   </a>
                 </li>
               </ul>
@@ -390,9 +390,9 @@ export default function PublishingLp2Page() {
                 <a data-legacy-href="javascript:;" className="btn-popup">Contact an Expert</a>
               </li>
               <li className="last">
-                <a href="tel:(833) 206-5993">
+                <a href="tel:090008401">
                   <span><img className="lazy" src="/publishing-lp2/images/tele-icon.webp" /></span>
-                  (833) 206-5993
+                  090008401
                 </a>
               </li>
             </ul>
@@ -486,9 +486,9 @@ export default function PublishingLp2Page() {
                   <a data-legacy-href="javascript:;" className="btn-popup">Contact an Expert</a>
                 </li>
                 <li className="last">
-                  <a href="tel:(833) 206-5993">
+                  <a href="tel:090008401">
                     <span><img className="lazy" src="/publishing-lp2/images/tele-icon.webp" /></span>
-                    (833) 206-5993
+                    090008401
                   </a>
                 </li>
               </ul>
@@ -672,9 +672,9 @@ export default function PublishingLp2Page() {
                   <a data-legacy-href="javascript:;" className="btn-popup">Contact an Expert</a>
                 </li>
                 <li className="last">
-                  <a href="tel:(833) 206-5993">
+                  <a href="tel:090008401">
                     <span><img className="lazy" src="/publishing-lp2/images/tele-icon.webp" /></span>
-                    (833) 206-5993
+                    090008401
                   </a>
                 </li>
               </ul>
@@ -865,9 +865,9 @@ export default function PublishingLp2Page() {
                         </a>
                       </li>
                       <li className="last">
-                        <a href="tel:(833) 206-5993">
+                        <a href="tel:090008401">
                           <span><img className="lazy" src="/publishing-lp2/images/tele-icon.webp" /></span>
-                          (833) 206-5993
+                          090008401
                         </a>
                       </li>
                     </ul>
@@ -940,9 +940,9 @@ export default function PublishingLp2Page() {
                 {" "}
                 <ul>
                   <li>
-                    <a href="tel:(833) 206-5993">
+                    <a href="tel:090008401">
                       <span>Call Us:</span>
-                      {" (833) 206-5993"}
+                      {" 090008401"}
                     </a>
                   </li>
                   <li>

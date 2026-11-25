@@ -41,9 +41,9 @@ export default function Footer() {
             <div className="col-lg-4 mt-5">
               <ul>
                 <li className="">
-                  <a className="" href="tel:(833) 206-5993">
+                  <a className="" href="tel:090008401">
                     <i className="fa-solid fa-phone pe-3"></i>
-                    (833) 206-5993
+                    090008401
                   </a>
                 </li>
                 <li className="mt-3">

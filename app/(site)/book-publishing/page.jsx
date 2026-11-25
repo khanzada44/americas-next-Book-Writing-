@@ -27,7 +27,7 @@ export default function BookPublishingPage() {
                 {" "}
                 <button className="me-2 mb-2" type="button" data-bs-toggle="modal" data-bs-target="#quote">Get Started</button>
                 {" "}
-                <a className="btn mb-2 btn-2" href="tel:(833) 206-5993">(833) 206-5993</a>
+                <a className="btn mb-2 btn-2" href="tel:090008401">090008401</a>
                 {" "}
                 <div className="bannerimgs">
                   <div className="row row-cols-2 row-cols-md-4">
@@ -178,7 +178,7 @@ export default function BookPublishingPage() {
               {" "}
               <button className="me-2 mb-2" type="button" data-bs-toggle="modal" data-bs-target="#quote">Get Started</button>
               {" "}
-              <a className="btn mb-2 btn-2" href="tel:(833) 206-5993">(833) 206-5993</a>
+              <a className="btn mb-2 btn-2" href="tel:090008401">090008401</a>
             </div>
           </div>
         </div>
@@ -232,7 +232,7 @@ export default function BookPublishingPage() {
               </p>
               {" "}
               <button className="me-2 mb-2" type="button" data-bs-toggle="modal" data-bs-target="#quote">Get Started</button>
-              <a className="btn mb-2 btn-2" href="tel:(833) 206-5993">(833) 206-5993</a>
+              <a className="btn mb-2 btn-2" href="tel:090008401">090008401</a>
             </div>
           </div>
         </div>

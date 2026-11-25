@@ -1,4 +1,6 @@
 /* Site footer (was inc/footer.php). */
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <>
@@ -6,9 +8,9 @@ export default function Footer() {
         <div className="container-xl">
           <div className="row">
             <div className="col-lg-4">
-              <a href="/" className="logo">
+              <Link href="/" className="logo">
                 <img className="lozad mb-3" src="/assets/img/logo-black.png" alt="publisher 4 states" />
-              </a>
+              </Link>
               {" "}
               <p>
                 At publisher 4 states, we provide our clients with affordable professional writing, editing, and proofreading services that are tailored to their specific needs. Additionally, we assist our clients in promoting their work across various media and channels, utilizing advanced tools and our expertise. With our comprehensive range of content solutions, publisher 4 states is your ultimate destination.
@@ -17,18 +19,22 @@ export default function Footer() {
             {" "}
             <div className="col-lg-4">
               <ul className="list-unstyled row pt-5 row-cols-2">
-                <li className="mb-3 col"><a href="/ebook-writing">eBook Writing</a></li>
-                <li className="mb-3 col"><a href="/book-publishing">Book Publishing</a></li>
-                <li className="mb-3 col"><a href="/book-promotion">Book Promotion</a></li>
-                <li className="mb-3 col"><a href="/audio-book">Audio Book</a></li>
-                <li className="mb-3 col"><a href="/book-video">Book Video</a></li>
-                <li className="mb-3 col"><a href="/book-proofreading">Book-Proofreading</a></li>
-                <li className="mb-3 col"><a href="/article-publication">Article Publication</a></li>
-                <li className="mb-3 col"><a href="/ghost-writing">Ghost Writing</a></li>
-                <li className="mb-3 col"><a href="/book-cover-design">Book Cover Design</a></li>
-                <li className="mb-3 col"><a href="https://publisher4states.com/blogs/">Blogs</a></li>
-                <li className="mb-3 col"><a href="/terms-conditions">Terms Conditions</a></li>
-                <li className="mb-3 col"><a href="/privacy-policy">Privacy Policy</a></li>
+                <li className="mb-3 col"><Link href="/ebook-writing">eBook Writing</Link></li>
+                <li className="mb-3 col"><Link href="/book-publishing">Book Publishing</Link></li>
+                <li className="mb-3 col"><Link href="/book-promotion">Book Promotion</Link></li>
+                <li className="mb-3 col"><Link href="/audio-book">Audio Book</Link></li>
+                <li className="mb-3 col"><Link href="/book-video">Book Video</Link></li>
+                <li className="mb-3 col"><Link href="/book-proofreading">Book-Proofreading</Link></li>
+                <li className="mb-3 col"><Link href="/article-publication">Article Publication</Link></li>
+                <li className="mb-3 col"><Link href="/ghost-writing">Ghost Writing</Link></li>
+                <li className="mb-3 col"><Link href="/book-cover-design">Book Cover Design</Link></li>
+                {/* <li className="mb-3 col">
+                  <a href="https://publisher4states.com/blogs/" target="_blank" rel="noopener noreferrer">
+                    Blogs
+                  </a>
+                </li> */}
+                <li className="mb-3 col"><Link href="/terms-conditions">Terms Conditions</Link></li>
+                <li className="mb-3 col"><Link href="/privacy-policy">Privacy Policy</Link></li>
               </ul>
             </div>
             {" "}
@@ -48,16 +54,22 @@ export default function Footer() {
                 </li>
                 <li className="mt-3">
                   <i className="fa-solid fa-location-crosshairs pe-3"></i>
-                  <a href="https://maps.app.goo.gl/QZsAUC2swsygx72E8">{" 5432 Geary Blvd, San Francisco, CA 94121, United States"}</a>
+                  <a href="https://maps.app.goo.gl/QZsAUC2swsygx72E8" target="_blank" rel="noopener noreferrer">
+                    {" 5432 Geary Blvd, San Francisco, CA 94121, United States"}
+                  </a>
                 </li>
               </ul>
               {" "}
               <ul className="list-unstyled d-flex justify-content-center mb-0">
                 <li className="pe-3">
-                  <a href="https://www.facebook.com/americasbookwritingofficial" target="_blank"><i className="fa-brands fa-facebook f-24"></i></a>
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <i className="fa-brands fa-facebook f-24"></i>
+                  </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/americasbookwriting/" target="_blank"><i className="fa-brands fa-instagram f-24"></i></a>
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <i className="fa-brands fa-instagram f-24"></i>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -71,10 +83,14 @@ export default function Footer() {
             <div className="col-lg-6">
               <ul className="list-unstyled d-flex justify-content-end mb-0">
                 <li className="dmc pe-3">
-                  <a href="https://publisher4states.com/assets/img/dmca-certificate.png" target="_blank"><img className="lozad" src="/assets/img/dmca-protection.webp" /></a>
+                  <a href="https://publisher4states.com/assets/img/dmca-certificate.png" target="_blank" rel="noopener noreferrer">
+                    <img className="lozad" src="/assets/img/dmca-protection.webp" alt="DMCA Protection" />
+                  </a>
                 </li>
                 <li className="dmc">
-                  <a href="https://publisher4states.com/assets/img/dmca-certificate.png" target="_blank"><img className="lozad" src="/assets/img/dmca-compliance.png" /></a>
+                  <a href="https://publisher4states.com/assets/img/dmca-certificate.png" target="_blank" rel="noopener noreferrer">
+                    <img className="lozad" src="/assets/img/dmca-compliance.png" alt="DMCA Compliance" />
+                  </a>
                 </li>
               </ul>
             </div>

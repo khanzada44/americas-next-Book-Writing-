@@ -36,7 +36,7 @@ export default function EbookWritingPage() {
                     </div>
                     {" "}
                     <div className="col text-center">
-                      <img className="lozad" src="/assets/img/banner-seal-white-3.webp" alt="publisher 4 states" />
+                      <img className="lozad" src="/assets/img/banner-seal-white-3.png" alt="publisher 4 states" />
                     </div>
                     {" "}
                     <div className="col text-center">
